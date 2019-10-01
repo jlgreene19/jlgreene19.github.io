@@ -1,3 +1,3 @@
 # jlgreene19.github.io
 
-This repo is for school assignments and test files. That is all.
+This repo is for school assignments and test code. That is all.
