@@ -6,7 +6,7 @@
 
     </head>
     <body>
-
+<form action="mileage.html" method="post" id="myForm">
         <div class="mpg">
             <p><u>Find the miles per gallon</u></p>
                 <p>Beginning odometer:</p>
@@ -20,7 +20,7 @@
                 
                 <p>Miles Per Gallon: <span id="answer"></span></p>
         </div>
-        
+
         <script>
             var begOdo;
             var endOdo;
@@ -43,7 +43,11 @@
             };
             
             submit.addEventListener("click", get_mpg);
+function resetForm() {
+    document.getElementById("myForm").reset();
+}
         </script>
-        
+    </form>
+    <button type="button" onclick="resetForm();">Recalculate</button>       
     </body>
 </html>
