@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Convert Quarts To Liters</title>
+
+    </head>
+    <body>
+
+        <div class="qtltr">
+            <p><u>Converting quart volume to liters</u></p>
+                <p>Enter volume in quarts:</p>
+                <input id="quarts" type="number" style="width: 50px;">
+                
+                <button id="submit" type="button">Convert</button>
+                
+                <p>Volume in liters: <span id="answer"></span></p>
+        </div>
+        
+        <script>
+            var q;
+            var c;
+            var l = .946353;
+            var submit = document.getElementById("submit");
+            
+            function quart_liter() {
+                q = parseFloat(document.getElementById("quarts").value);
+                c = q * l;
+                c = Math.round(100 * c)/100;
+                document.getElementById("answer").innerHTML = c;
+            };
+            
+            submit.addEventListener("click", quart_liter);
+        </script>
+        
+    </body>
+</html>
