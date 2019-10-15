@@ -2,35 +2,47 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Convert Quarts To Liters</title>
+        <title>Calculate miles per gallon</title>
 
     </head>
     <body>
 
-        <div class="qtltr">
-            <p><u>Converting quart volume to liters</u></p>
-                <p>Enter volume in quarts:</p>
-                <input id="quarts" type="number" style="width: 50px;">
+        <div class="mpg">
+            <p><u>Find the miles per gallon</u></p>
+                <p>Beginning odometer:</p>
+                <input id="begOdo" type="number" style="width: 55px;">
+                <p>Ending odometer:</p>
+                <input id="endOdo" type="number" style="width: 55px;">
+                <p>Gallons of gasoline:</p>
+                <input id="galGas" type="number" style="width: 30px;">
                 
-                <button id="submit" type="button">Convert</button>
+                <button id="submit" type="button">Calculate MPG</button>
                 
-                <p>Volume in liters: <span id="answer"></span></p>
+                <p>Miles Per Gallon: <span id="answer"></span></p>
         </div>
         
         <script>
-            var q;
-            var c;
-            var l = .946353;
+            var begOdo;
+            var endOdo;
+            var galGas;
+            var drRev;
             var submit = document.getElementById("submit");
             
-            function quart_liter() {
-                q = parseFloat(document.getElementById("quarts").value);
-                c = q * l;
-                c = Math.round(100 * c)/100;
-                document.getElementById("answer").innerHTML = c;
+            function get_mpg() {
+                begOdo = parseFloat(document.getElementById("begOdo").value);
+                endOdo = parseFloat(document.getElementById("endOdo").value);
+                galGas = parseFloat(document.getElementById("galGas").value);
+                
+                if (endOdo < begOdo ) {
+                    drRev = "Does not compute.";
+                } else {
+                    drRev = (endOdo - begOdo) / galGas;
+                }
+                
+                document.getElementById("answer").innerHTML = drRev;
             };
             
-            submit.addEventListener("click", quart_liter);
+            submit.addEventListener("click", get_mpg);
         </script>
         
     </body>
