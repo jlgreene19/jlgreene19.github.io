@@ -2,32 +2,30 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <title>Selection Structures</title>
+  <meta charset="utf-8">
+  <title>Selection Structures</title>
 
-    <script>
-        /*
-          Input: get the age of the user - age
-          Processing: if age is over 55 they get a 30% discount and if age is less than or equal to 7 then the price is free
-          Output: price ... based on age
-        */
-        let price;
-        let age = document.getElementById('age').value;
-        age = parseInt(age);
+  <script>
+    /*
+    Input: get the age of the user - age
+    Processing: if age is over 55 they get a 30% discount and if age is less than or equal to 7 then the price is free
+    Output: price ... based on age
+    */
+    function getPrice() {
+      let price;
+      let age = document.getElementById('age').value;
+      age = parseInt(age);
 
-        if (age <= 7) {
-          price = 0;
-        }
-        else if { (age > 55)
-          price = 6;
-        }
-        else {
-          price = 10;
-        }
-
-
-        document.getElementById('price').textContent = price;
-    </script>
+      if (age <= 7) {
+        price = 0;
+      } else if (age > 55) {
+        price = 6;
+      } else {
+        price = 10;
+      }
+      document.getElementById('price').textContent = price;
+    }
+  </script>
 </head>
 
 <body>
