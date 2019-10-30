@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Select Footwear</title>
+    </head>
+    <body>
+
+            <p>Choose Correct Footwear</p>
+                <p>Select the weather:</p>
+                <select id="weather">
+                    <option value="hot">Hot</option>
+                    <option value="rain">Rain</option>
+                    <option value="snow">Snow</option>
+                    <option value="windy">Windy</option>
+                    <option value="humid">Humid</option>
+                </select>
+                
+                <button id="submit" type="button">Submit</button>
+                
+                <p>Recommended Footwear: <span id="answer"></span></p>
+        
+        <script>
+            var firstNo,
+                secondNo,
+                fwType;
+            var submit = document.getElementById("submit");
+            
+            function calculate() {
+                var weather = document.getElementById("weather").value;
+                console.log(weather);
+                
+                if (weather == "hot") {
+                    fwType = "Sandals";
+                } else if (weather == "rain") {
+                    fwType = "Galoshes";
+                } else if (weather == "snow") {
+                    fwType = "Boots";
+                } else {
+                    fwType = "Shoes";
+                }
+            
+                document.getElementById("answer").innerHTML = a;
+            };
+            
+            submit.addEventListener("click", calculate);
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Can you sleep in?</title>
+    </head>
+    <body>
+
+        <div id="output">
+            <p>Can you sleep in?</p>
+                
+            <p>Today is: <span id="today"></span></p>
+                
+            <p><span id="msg"></span></p>
+        </div>
+        
+        <script>
+          /*
+          * INPUT: Program is based on computer's internal clock
+          * PROCESSING: Program will choose code based on computer's internal clock
+          * OUTPUT: Program will output message based on computer's internal clock
+          */
+
+            var now = new Date();
+            var month = now.getMonth();
+            var dayOfMonth = now.getDate();
+            var dayOfWeek = now.getDay();
+            console.log("now is " + now);
+            console.log("month is " + month);
+            console.log("dayOfMonth is " + dayOfMonth);
+            console.log("dayOfWeek is " + dayOfWeek);
+            
+            var today = now.toDateString();
+            
+            function sleep() {
+
+            document.getElementById("today").innerHTML = today;
+            
+            if ((dayOfWeek == 0) || (dayOfWeek == 6)) {
+                 sleepIn();
+            }
+            else if ((month == 0) && (dayOfMonth == 1)) {
+                 sleepIn();
+            }
+            else if ((month == 6) && (dayOfWeek == 4)) {
+                sleepIn();
+            }
+            else if ((month == 11) && (dayOfWeek == 25)) {
+                sleepIn();
+            }
+            else {
+                document.getElementById("msg").innerHTML = "Get Up!";
+            };            
+            
+            function sleepIn() {
+                document.getElementById("msg").innerHTML = "Sleep in.";
+            }
+            }
+        </script>      
+        <button type="button" onclick="sleep()">Sleep in day?</button>   
+    </body>
+</html>
