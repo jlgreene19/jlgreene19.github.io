@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Lab</title>
+
+    <script>
+        function makeFullName(givenName, familyName) {
+            const myArray = ["Theodore", "Roosevelt"];
+            document.getElementById('output').innerHTML = buildUsername(myArray);
+        }
+
+        function buildUsername(anArray) {
+            // takes second string in the array and adds it to the second to last string w/ a hyphen between
+            return anArray[anArray.length - 1] + ", " + anArray[0];
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Array Lab</h1>
+    <button type="button" onclick= makeFullName()">Build String</button><br>
+    <div id="output"></div>
+</body>
+</html>

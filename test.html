@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>EvensMultiply</title>
+<script type="text/javascript">
+    /*Write a defining table and a function named countEvens that counts and returns the number of even integers in an array. The function must have this header: function countEvens(list)*/
+
+    // This function will call and test countEvens() and multiply(list, multiplier).
+    var list = [17, 8, 9, 5, 20];
+    function testFunctions() {
+        var multiplier = 3;
+        var result1 = 0;
+        var result2 = 0;
+        var result3 = 0;
+        result1 = countEvens(list);
+        result2 = multiply(list, multiplier);
+        result3 = "These are the even numbers of the array list: " + result1 + "<br>" + "This is the array list multiplied by 3: " + result2;
+        document.getElementById("outputDiv").innerHTML = result3;
+    }
+    // This function will find the even intergers in the array.
+    function countEvens(list) {
+        let evens = [];
+        for (let i = 0; i < list.length; i++) {
+            if (list[i] % 2 === 0) {
+                evens.push(list[i]);
+            }
+        }
+        return evens;
+    }
+    /*Write a defining table and a function to multiply each element in an array by some value. The function must have this header: function multiply(list, multiplier)*/
+
+    // This function will multiply the array list by a multiplier.
+    function multiply(list, multiplier) {
+        let products = list.map(function(list){return list * multiplier;});
+        return products;
+    }
+ </script>
+ </head>
+ <h1>Find evens and multiply by multiplier.</h1>
+ <h2>Array list [17, 8, 9, 5, 20]</h2>
+ <h3>Click the Compute button to test.</h3>
+ <button type="button" onclick="testFunctions()">Compute</button>
+ <div id="outputDiv"></div>
+
+ </html>

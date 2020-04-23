@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Lab</title>
+
+    <script>
+        function makeFullName(givenName, familyName) {
+            var givenName = "Theodore";
+            var familyName = "Roosevelt";
+            var fn = makeFullName("Theodore", "Roosevelt");
+            return makeFullName[makeFullName.length - 1] + ", " + makeFullName[1];
+           
+        }
+        document.getElementById('output').innerHTML = makeFullName(givenName, familyName);
+    </script>
+
+</head>
+<body>
+    <h1>Array Lab</h1>
+    <button type="button" onclick="makeFullName(givenName, familyName)">Build String</button><br>
+    <div id="output"></div>
+</body>
+</html>

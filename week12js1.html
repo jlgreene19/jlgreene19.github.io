@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Lab</title>
+
+    <script>
+        //function buildArrayForTesting() {
+            //const myArray = ["Glacier", "Jump", "Halo", "Furlow", "yellow"];
+            //document.getElementById('output').innerHTML = buildUsername(myArray);
+        //}
+
+        //function buildUsername(anArray) {
+            // takes second string in the array and adds it to the second to last string w/ a hyphen between
+            //return anArray[1] + "-" + anArray[anArray.length - 2];
+        //}
+            var list = [17, 8, 9, 5, 20];
+        function getMiddle(list) {
+            var first, second;
+            if (list.length % 2 != 0) {
+                answer = list[Math.ceil(list.length / 2)-1];
+                //document.getElementById('output').innerHTML = answer;
+
+            }
+            else {
+                first = list[Math.floor(list.length / 2)-1];
+                second = list[Math.ceil(list.length / 2)];
+                answer = (first + second) / 2;
+                document.getElementById('output').innerHTML = answer;
+
+
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <h1>Array Lab</h1>
+    <button type="button" onclick="getMiddle()">Build String</button><br>
+    <div id="output"></div>
+</body>
+</html>

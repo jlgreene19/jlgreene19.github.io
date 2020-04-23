@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Future Value Calculator</title>
+
+    <script type="text/javascript">
+
+        function doFV() {
+            let principal = parseFloat(document.getElementById("prin").value);
+            let annualRate = parseFloat(document.getElementById("aRate").value);
+            let years = parseFloat(document.getElementById("yrs").value);
+            let periodsPerYear = parseFloat(document.getElementById("ppYears").value);
+
+            document.getElementById('output').innerHTML = '$' + computeFutureValue(principal, annualRate, years, periodsPerYear).toFixed(2);
+        }
+
+        function computeFutureValue(principal, annualRate, years, periodsPerYear) {
+
+            return principal * Math.pow((1 + annualRate / periodsPerYear), (periodsPerYear * years));
+
+        }
+    </script>
+</head>
+
+<body>
+    <h2><strong>Investment Calculator</strong></h2>
+
+        <span>Amount Invested (principal) <input type="text" id="prin" size="5">
+        </span>
+            <br>
+        <span>Annual Rate (example: .08) 
+            &nbsp;&nbsp;&nbsp;
+        <input type="text" id="aRate" size="3">
+        </span>
+            <br>
+        <span>Number of Years 
+        <input type="text" id="yrs" size="3">
+        </span>
+            <br>
+        <span>Periods Per Year 
+        <input type="text" id="ppYears" size="3">
+        </span>
+            <br>
+        <button type="button" onclick="doFV()">Compute future value</button>
+        <!-- <button type="button" onclick="window.location.reload();">Reset</button> -->
+        <div id="output"></div>
+</body>
+</html>

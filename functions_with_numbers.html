@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Functions</title>
+
+  <script>
+    function main() {
+      let num1 = parseFloat(document.getElementById('num1').value);
+      let output = myFunction(num1);
+      document.getElementById('output').innerHTML = "<strong>" + output + "</strong>"
+    }
+
+    function myFunction(xsad) {
+      return xsad + 100;
+    }
+
+  </script>
+  
+</head>
+<body>
+  <h1>Functions</h1>
+  Number: <input type="text" id="num1"><br>
+  <button type="button" onclick="main()">Submit</button><br>
+  <div id="output"></div>
+</body>
+</html>
