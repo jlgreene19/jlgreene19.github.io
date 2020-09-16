@@ -39,4 +39,4 @@ const dayName = dayNames[todaysdate.getDay()];
 const monthName = months[todaysdate.getMonth()’;
 const currentdate = dayName + “, “ + todaydate.getDate() + “ “ + monthName + “, “ + todaysdate.getFullYear();
 
-document.getElementById(‘currentdate’).textContent = currentdate;
+// document.getElementById(‘currentdate’).textContent = currentdate;
