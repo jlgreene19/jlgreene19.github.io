@@ -1,0 +1,48 @@
+body {
+    font-family: Ariel, sans-serif;
+    padding: 1px;
+}
+
+.course {
+    padding: 5px 0 0 10px;
+}
+
+header {
+    height: 70px;
+}
+
+header, footer {
+    background-color: #123456;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 775px;
+    color: white;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    height: 50px;
+    font-size: 15px;
+}
+
+img {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    float: left;
+    font-size: 35px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: green;
+}
