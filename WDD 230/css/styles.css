@@ -1,5 +1,5 @@
 body {
-    font-family: Ariel, sans-serif;
+    font-family: 'Merriweather', Ariel, sans-serif;
     padding: 1px;
 }
 
@@ -28,6 +28,7 @@ footer {
     vertical-align: middle;
     line-height: 25px;
     height: 50px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
     font-size: 15px;
 }
 
@@ -40,6 +41,7 @@ h1 {
     vertical-align: middle;
     line-height: 20px;
     float: left;
+    font-family: 'Roboto', 'Poppins', sans-serif;
     font-size: 35px;
 }
 
