@@ -1,0 +1,10 @@
+@media only screen and (max-width: 60em) {
+    main {
+        max-width: 500px;
+    }
+
+    .grid1 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+}
