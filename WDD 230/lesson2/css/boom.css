@@ -1,0 +1,24 @@
+@media only screen and (max-width: 37.5em) {
+    body {
+        font-size: 16px;
+    }
+    
+    .grid1 {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}

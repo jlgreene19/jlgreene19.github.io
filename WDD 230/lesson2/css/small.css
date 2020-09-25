@@ -1,24 +1,149 @@
-@media only screen and (max-width: 37.5em) {
-    body {
-        font-size: 16px;
-    }
-    
-    .grid1 {
-        display: block;
-        grid-template-columns: 1fr;
-        grid-gap: 1em;
-        font-size: 16px;
-    }
+@media only screen and (min-width: 37.5em) {
 
-    header h1 {
-        font-size: 16px;
-    }
+.grid1 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 1.5% 1.5% 1.5% auto;
+    grid-gap: 1em;
+    padding: 15px;
+}
 
-    header h2 {
-        font-size: 16px;
-    }
+header h1 {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-size: 36px;
+    margin: 0 0 0 400px;
+}
 
-    footer {
-        font-size: 16px;
-    }
+header h2 {
+    font-family: 'Roboto', 'Merriweather', sans-serif;
+    font-size: 24px;
+    margin: 0 0 0 460px;
+}
+
+main {
+    font-family: 'Merriweather', 'Roboto', sans-serif;
+}
+
+.white-space-design {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(112, 201, 228);
+    margin: 0 28px 0 0;
+}
+
+.playstation {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.playstation-site-link {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.white-space-info {
+    margin: 7px 28px 0 0;
+    text-align: justify;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.parc-alignment {
+    background-color: rgb(112, 201, 228);
+    margin: 0 28px 0 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.ebay {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.ebay-site-link {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.parc-alignment-info {
+    margin: 7px 28px 0 0;
+    text-align: justify;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rule-of-thirds {
+    background-color: rgb(112, 201, 228);
+    margin: 0 28px 0 0;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.nfl {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.nfl-site-link {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.rule-of-thirds-info {
+    margin: 7px 28px 0 0;
+    text-align: justify;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0 0 0 324px;
+}
+
+.img1 {
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.img2 {
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.img3 {
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
 }
