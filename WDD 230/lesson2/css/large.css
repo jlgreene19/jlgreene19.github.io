@@ -1,0 +1,88 @@
+@media only screen and (min-width: 60em) {
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 1.5% 1.5% 1.5% auto;
+        grid-gap: 1em;
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-family: 'Roboto', 'Poppins', sans-serif;
+        font-size: 36px;
+        margin: 0 0 0 400px;
+    }
+    
+    header h2 {
+        font-family: 'Roboto', 'Merriweather', sans-serif;
+        font-size: 24px;
+        margin: 0 0 0 460px;
+    }
+
+    .img1 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+    .img2 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+    .img3 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 3/4;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    .white-space-info {
+        margin: 7px 28px 0 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .parc-alignment-info {
+        margin: 7px 28px 0 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .rule-of-thirds-info {
+        margin: 7px 28px 0 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
