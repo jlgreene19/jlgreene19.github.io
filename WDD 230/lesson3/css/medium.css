@@ -1,4 +1,5 @@
-@medium only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
+
     #content {
         display: grid;
         padding: 5px;
