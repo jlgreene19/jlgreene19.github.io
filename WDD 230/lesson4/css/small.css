@@ -89,6 +89,7 @@ nav ul.hide {
 
 main h1 {
   margin: 5px 0 5px 10px;
+  color: #005377;
 }
 
 * {
@@ -97,7 +98,7 @@ main h1 {
   
   .wrapper > div {
     border-radius: 5px;
-    background-color: rgb(207, 232, 220);
+    background-color: #BBDEF0;
     padding: 1em;
     margin: 5px;
   }
