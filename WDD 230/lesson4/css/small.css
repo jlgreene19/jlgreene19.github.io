@@ -87,7 +87,7 @@ nav ul.hide {
     display: none;
 }
 
-main h1 {
+main > h1 {
   margin: 5px 0 5px 10px;
   color: #005377;
 }
