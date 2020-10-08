@@ -1,0 +1,63 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    header {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        padding: 20px 0;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    footer {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        padding: 20px 0;
+        display: block;
+        align-items:center;
+        justify-content:center;
+        max-width: 1020px;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .wrapper > div {
+        border-radius: 5px;
+        background-color: rgb(207, 232, 220);
+        padding: 1em;
+        margin: 5px;
+      }
+      .wrapper {
+        display: block;
+      }
+      
+      .wrapper > div {
+        max-width: 1020px;
+      }
+
+} /*end large */

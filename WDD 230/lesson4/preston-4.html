@@ -11,9 +11,6 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-
-
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -22,11 +19,10 @@
 <link href="css/medium.css" rel="stylesheet">
 <!-- enhance-desktop -->
 <link href="css/large.css" rel="stylesheet">
-
-
      
 </head>
-<body>
+<body onload="setDate()">
+
 <!-- HEADER HERE -->
 <header>
 	<picture>
@@ -34,34 +30,41 @@
 	</picture>
 	<section class="headings">
 		<h1>Weather The Storm 24</h1>
-		<div class="m">Here for you 24 hours a day</div>
+		<div class="quote">Here for you 24 hours a day</div>
 	</section>
 </header>
-    
-    
+
 <!-- NAVIGATION HERE -->
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>    
+            <li><a href="#"><b>Hero w/ weather summary</b></a></li>
+            <li class="active"><a href="#"><b>5 Day Forecast</b></a></li>
+            <li><a href="#"><b>Article</b></a></li>
+            <li><a href="#"><b>Contact Information</b></a></li>    
         </ul>
     </nav>
     
-    
 <!-- CONTENT HERE -->
     <main>
-        <h1>Products</h1>
-        <p>The page name shoud almost exactly match the menu item. </p>
+        <h1>Preston Idaho</h1>
+        <div class="wrapper">
+            <div class="box1">Hero w/ weather summary</div>
+            <div class="box2">5 Day Forecast</div>
+            <div class="box3">Article</div>
+            <div class="box4">Contact Information</div>
+        </div>
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
-        <p>&copy; 201x &bull; Paul Cheney &bull; 123-555-6789</p>
-    </footer>
-    
+<footer>
+    &copy; <span id="copyright"></span> | Weather The Storm 24 | Attributions | Jeremy Greene
+    <div id="currentday"></div> 
+    <div id="todaydate"></div>
+</footer>
+<script src="js/todaydate.js"></script>
+<!-- <script src="js/currentday.js"></script> -->
+<script src="js/copyright.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
