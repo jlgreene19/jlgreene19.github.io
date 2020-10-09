@@ -10,9 +10,13 @@
         justify-content:center;
     }
 
-    .nav {
+    nav a {
+        float: none;
+        display: block;
         width: 100%;
+        text-align: center;
     }
+
     nav button {
         display: none;
     }
