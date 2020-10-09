@@ -1,12 +1,32 @@
-    var d = new Date();
-    var weekday = new Array(7);
-    weekday[0] = "Sunday";
-    weekday[1] = "Monday";
-    weekday[2] = "Tuesday";
-    weekday[3] = "Wednesday";
-    weekday[4] = "Thursday";
-    weekday[5] = "Friday";
-    weekday[6] = "Saturday";
-  
-    var n = weekday[d.getDay()];
-    document.getElementById("currentday").innerHTML = n;
+// day names array
+var dayNames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
+
+// long month names array
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+const todaysdate = new Date();
+const dayName = dayNames[todaysdate.getDay()];
+const monthName = months[todaysdate.getMonth()];
+const todaydate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + todaysdate.getFullYear();
+
+document.getElementById('currentday').textContent = todaydate;
