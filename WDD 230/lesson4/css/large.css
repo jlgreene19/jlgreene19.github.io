@@ -10,6 +10,9 @@
         justify-content:center;
     }
 
+    .nav {
+        width: 100%;
+    }
     nav button {
         display: none;
     }
@@ -18,7 +21,7 @@
         display: block;
     }
 
-    nav ul {
+    .nav ul {
         margin-left: 2%;
     }
 
