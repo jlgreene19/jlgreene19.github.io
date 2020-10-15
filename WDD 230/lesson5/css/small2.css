@@ -27,6 +27,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+.pancakes {
+  font-size: 1em;
+  background-color: yellow;
+  font-weight: 900;
+  text-align: center;
+  padding: .5em;
+}
+
 header {
     width: 100%;
     overflow: hidden;
@@ -54,7 +62,6 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
-
 
 nav button {
     margin: .2rem 2%;
@@ -92,31 +99,141 @@ main > h1 {
   color: #005377;
 }
 
+.weathersummary {
+  top: 25px;
+  left: 25px;
+  bottom: 25px;
+  padding: .5rem;
+  color: #005377;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+}
+
+.fivedaytext > h3 {
+  text-align: center;
+  color: #005377;
+  font-family: Roboto Slab, serif;
+  margin: 25px 0 10px 0;
+}
+
+.forecast-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #005377;
+}
+
+.article-container {
+  border: 1px solid #005377;
+  margin: 10px 0 10px 0;
+  background-color: #F1D302;
+  float: none;
+  padding: 5px;
+}
+
+h3, h4 {
+  text-align: center;
+  color: #005377;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+}
+
+.article-container h4 {
+  margin: -12px 0 20px 0;
+}
+
+.article-container h3, h4 {
+  text-align: left;
+}
+
+.article-container p {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  color: #005377;
+}	
+
 * {
   box-sizing: border-box;
   }
   
-  .wrapper > div {
-    border-radius: 5px;
-    background-color: #BBDEF0;
-    padding: 1em;
-    margin: 5px;
-  }
+.wrapper > div {
+  border-radius: 5px;
+  background-color: #BBDEF0;
+  padding: 1em;
+  margin: 5px;
+}
 
-  .wrapper {
-    display: block;
+.wrapper {
+  display: block;
 
-  }
+}
 
-  footer {
-    color: var(--paragraph-color-on-color);
-    background-color: var(--text-background-color);
-    padding: 20px 0;
-    display: block;
-    align-items:center;
-    justify-content:center;
-    text-align: center;
-  }
+footer {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  padding: 20px 0;
+  display: block;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.griditem1 {
+		text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.griditem3 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0 5px 0 0;
+}
+
+.griditem4 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0 5px 0 0;
+}
+
+.griditem5 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0 5px 0 0;
+}
+
+.contact-grid > .griditem3 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid > .griditem4 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid > .griditem5 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid p {
+  color: #005377;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
