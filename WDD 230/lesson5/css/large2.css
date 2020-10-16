@@ -10,6 +10,16 @@
         justify-content: center;
     }
 
+    body > #pancakes {
+        height: 60px;
+        text-align: center;
+        background-color: #F1D302;
+        color: #005377;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
     main h1 {
         text-align: center;
     }

@@ -5,6 +5,16 @@
 		width: 100%;
 	}
 
+	body > #pancakes {
+        height: 60px;
+        text-align: center;
+        background-color: #F1D302;
+        color: #005377;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
 	.headings h1 {
 		font-size: 3rem;
 	}

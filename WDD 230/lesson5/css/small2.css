@@ -27,71 +27,80 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.pancakes {
-  font-size: 1em;
-  background-color: yellow;
-  font-weight: 900;
-  text-align: center;
-  padding: .5em;
+header {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  padding: 1em;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
 }
 
-header {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    padding: 1em;
-    color: var(--paragraph-color-on-color);
-    background-color: var(--text-background-color);
-  }
+.hero-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+body > #pancakes {
+  height: 60px;
+  text-align: center;
+  background-color: #F1D302;
+  color: #005377;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 60px;
+}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
-  }
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
 
 nav {
-    background-color: var(--nav-background-color);
-    font-family: "Roboto Slab", serif;
-  }
+  background-color: var(--nav-background-color);
+  font-family: "Roboto Slab", serif;
+}
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
+  color: var(--nav-link-color);
+}
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
 
 nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #003577;
-    }
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #003577;
+}
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: #000;
-    border-top:1px solid rgba(0,0,0,0.3);
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top:1px solid rgba(0,0,0,0.3);
 }
 
 nav ul li.active a{
-    background-color: rgba(0,53,119,1);
-    color: #fff;
+  background-color: rgba(0,53,119,1);
+  color: #fff;
 }
 
 nav ul.hide {
-    display: none;
+  display: none;
 }
 
 main > h1 {
