@@ -162,7 +162,14 @@ h3, h4 {
   font-family: Raleway, sans-serif;
   font-size: 14px;
   color: #005377;
-}	
+}
+
+.article-img img {
+  width: 50%;
+  height: auto;
+  margin: 0 0 0 2%;
+  float: right;
+}
 
 * {
   box-sizing: border-box;
@@ -192,11 +199,16 @@ footer {
 }
 
 .griditem1 {
-		text-align: center;
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 6;
+}
+
+.griditem1 img {
+  width: 40%;
+  height: auto;
 }
 
 .griditem3 {

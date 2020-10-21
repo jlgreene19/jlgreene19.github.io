@@ -152,6 +152,11 @@
         grid-row-end: 6;
     }
 
+    .griditem1 img {
+        width: 35%;
+        height: auto;
+    }
+
 	.griditem3 {
         text-align: right;
         grid-column-start: 2;
