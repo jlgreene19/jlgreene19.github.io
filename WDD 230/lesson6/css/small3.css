@@ -1,0 +1,264 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #BBDEF0;
+    --secondary-color: #005377;
+    --accent1-color: #F1D302;
+    --accent2-color: #00AFB5;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Roboto Slab", serif;
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+  
+    /* colors below are for the website color scheme */
+    --headline-color-on-white: black;  /* headlines on a white background */ 
+    --headline-color-on-color: #00AFB5; /* headlines on a colored background */ 
+    --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #BBDEF0; /* paragraph text on a colored background */ 
+    --text-background-color: #005377;
+    --nav-link-color: #005377;
+    --nav-background-color: #F1D302;
+    --nav-hover-link-color: #005377;
+    --nav-hover-background-color: #BBDEF0;
+  }
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  padding: 1em;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+}
+
+.hero-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+body > #pancakes {
+  height: 60px;
+  text-align: center;
+  background-color: #F1D302;
+  color: #005377;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-family: "Roboto Slab", serif;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #003577;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+  background-color: rgba(0,53,119,1);
+  color: #fff;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+main > h1 {
+  margin: 5px 0 5px 10px;
+  color: #005377;
+}
+
+.weathersummary {
+  top: 25px;
+  left: 25px;
+  bottom: 25px;
+  padding: .5rem;
+  color: #005377;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+}
+
+.fivedaytext > h3 {
+  text-align: center;
+  color: #005377;
+  font-family: Roboto Slab, serif;
+  margin: 25px 0 10px 0;
+}
+
+.forecast-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #005377;
+}
+
+.article-container {
+  border: 1px solid #005377;
+  margin: 10px 0 10px 0;
+  background-color: #F1D302;
+  float: none;
+  padding: 5px;
+}
+
+h3, h4 {
+  text-align: center;
+  color: #005377;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+}
+
+.article-container h4 {
+  margin: -12px 0 20px 0;
+}
+
+.article-container h3, h4 {
+  text-align: left;
+}
+
+.article-container p {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  color: #005377;
+}
+
+.article-img img {
+  width: 50%;
+  height: auto;
+  margin: 0 0 0 2%;
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+  }
+  
+.wrapper > div {
+  border-radius: 5px;
+  background-color: #BBDEF0;
+  padding: 1em;
+  margin: 5px;
+}
+
+.wrapper {
+  display: block;
+
+}
+
+footer {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  padding: 20px 0;
+  display: block;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.griditem1 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.griditem1 img {
+  width: 40%;
+  height: auto;
+}
+
+.griditem3 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0 5px 0 0;
+}
+
+.griditem4 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0 5px 0 0;
+}
+
+.griditem5 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0 5px 0 0;
+}
+
+.contact-grid > .griditem3 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid > .griditem4 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid > .griditem5 {
+  background-color: #BBDEF0;
+}
+
+.contact-grid p {
+  color: #005377;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
