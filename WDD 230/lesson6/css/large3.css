@@ -35,14 +35,14 @@
         margin: 10px auto;
         position: relative;
         width: 1020px;
-        height: 300px;
+        height: 500px;
     }
 
     .weathersummary {
         position: absolute;
         top: 35px;
         left: 35px;
-        bottom: 25px;
+        bottom: 220px;
         background: radial-gradient(#BBDEF0, #BBDEF0);
         border: 1px solid #005377;
         padding: .5rem;

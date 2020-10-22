@@ -25,12 +25,12 @@
 		margin-left: 17px;
 	}
 
-	.hero-ph img {
+    .hero-ph img {
         margin: auto;
         background-repeat: no-repeat;
         height: auto;
-		width: 100%;
-	}
+        width: 100%;
+      }
 
 	.weathersummary {
 		top: 25px;
