@@ -36,6 +36,12 @@ header {
   background-color: var(--text-background-color);
 }
 
+.herodiv {
+  margin: auto;
+  width: 95%;
+  height: auto;
+}
+
 .hero-ph img {
   margin: auto;
   background-repeat: no-repeat;
