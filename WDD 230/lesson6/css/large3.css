@@ -59,6 +59,10 @@
         margin: 10px 0 0 0;
     }
 
+    hr {
+        border: 2px solid #005377;
+    }
+
     .forecast-ph img {
         margin: auto;
         background-repeat: no-repeat;
