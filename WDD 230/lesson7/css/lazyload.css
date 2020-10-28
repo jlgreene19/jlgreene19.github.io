@@ -1,0 +1,16 @@
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-bottom: 20px;
+}
