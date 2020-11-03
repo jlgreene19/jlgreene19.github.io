@@ -73,6 +73,12 @@ body {
   background-color: #BBDEF0;
 }
 
+.container {
+  display: grid; 
+  align-items: center; 
+  justify-content: center;
+}
+
 main > h1 {
   text-align: center;
   padding: 20px 0 0 0;
@@ -81,14 +87,16 @@ main > h1 {
 }
 
 main ul {
-  display: grid;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
   grid-gap: .8em;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   list-style: none;
   flex-wrap: wrap;
+  padding: 4em;
   margin: 1em 1em;
   margin-top: -45px;
-  padding: 3.75em 3.75em 0 0;
 }
 
     main li {

@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid darkgray;
+  }
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr:nth-child(1) {
+    background-color:#7fb9c2;
+}

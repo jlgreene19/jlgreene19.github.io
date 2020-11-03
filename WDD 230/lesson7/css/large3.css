@@ -34,6 +34,10 @@
         background-color: #BBDEF0;
     }
 
+    .container {
+        display:flex; align-items: center; justify-content: center;
+    }
+
     main > h1 {
         text-align: center;
         padding: 20px 0 0 0;
@@ -43,6 +47,8 @@
 
     main ul {
         display: grid;
+        justify-content: center;
+        max-width: 1225px;
         margin-top: 20px;
         margin-right: 0px;
         margin-bottom: 20px;
