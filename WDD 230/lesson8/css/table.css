@@ -32,6 +32,11 @@ tbody {
     font-size: 21px;
 }
 
+tbody tr th {
+    background-color:#628ca6;
+    color:#ffffff;
+}
+
 td[colspan="2"] {
     text-align: center;
 }

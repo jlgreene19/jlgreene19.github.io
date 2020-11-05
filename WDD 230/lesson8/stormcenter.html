@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="name here">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Preston, Idaho Town Weather Page</title>
+<meta name="description" content="Preston Town Page Weather Gallery">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize4.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small4.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium4.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large4.css" rel="stylesheet">
+     
+</head>
+<body>
+        <div id="pancakes"></div>
+<!-- HEADER HERE -->
+<header>
+	<picture>
+		<img src="images/sunandcloud2.png" alt="website logo">
+	</picture>
+	<section class="headings">
+		<h1>Weather The Storm 24</h1>
+		<div class="quote">Here for you 24 hours a day</div>
+	</section>
+</header>
+
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#"><b>Home</b></a></li>
+            <li><a href="#"><b>Preston</b></a></li>
+            <li><a href="#"><b>Soda Springs</b></a></li>
+            <li><a href="#"><b>Fish Haven</b></a></li>
+            <li class="active"><a href="#"><b>Storm Center</b></a></li>
+            <li><a href="#"><b>Gallery</b></a></li>
+        </ul>
+    </nav>
+    
+<!-- CONTENT HERE -->
+    <main>
+
+        <h1>Severe Weather Reporting</h1>
+        <form action="thanks.html" method="get">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" name="fullname" required pattern="[a-zA-Z].{5,}"></label>
+            <label class="top">Email <input type="email" name="email" placeholder="user@email.com"></label>
+            <label class="top">Phone* <input type="tel" name="phone" required></label>
+            <label class="top">Zipcode* <input type="number" name="number" required></label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Storm Information</legend>
+            <div>Audience</div>
+            <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+            <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+            <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+            
+            <div>Software Needed</div>
+            <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+            <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+            <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+            <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Additional Information</legend>
+            <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
+            <label class="top">Course Subject
+                <select name="subject">
+                    <option value="">Please Select &#9662;</option>
+                <option value="software">Software Development</option>
+                <option value="creative">Creative Professional</option>
+                <option value="info">Information Technology</option>
+                <option value="data">Data Professional</option>
+                <option value="construction">Construction</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="business">Business Professional</option>
+                <option value="security">Cyber Security</option>
+                </select>
+            </label>
+            
+            <label>How Many Authors <input type="number" name="authors"></label>
+            
+        </fieldset>
+            
+        <input type="submit" value = "Propose My Course" class="submitBtn">
+        OR
+        <button type="submit">Send Data</button>
+    
+        </form>
+
+    </main>
+    
+<!-- FOOTER HERE -->
+<footer>
+    &copy; <span id="copyright"></span> | Weather The Storm 24 | Attributions | Jeremy Greene
+    <div id="currentday"></div>
+</footer>
+
+<script src="js/pancakes.js"></script>
+<script src="js/currentday.js"></script>
+<script src="js/copyright.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/imagehandling.js"></script>
+<script src="js/webfontload.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+</html>
