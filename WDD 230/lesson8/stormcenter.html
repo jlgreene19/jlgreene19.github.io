@@ -58,16 +58,17 @@
     
         <fieldset>
             <legend>Storm Information</legend>
-            <div>Audience</div>
-            <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-            <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-            <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-            
-            <div>Software Needed</div>
-            <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-            <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-            <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-            <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+            <label class="sbs">Storm Date: <input type="date" name="date"></label>
+            <label class="sbs">Storm Type:
+                <select name="stormlist">Storm Type: 
+                    <option value="">Please Select &#9662;</option>
+                    <option value="Flash Flood">Flash Flood </option>
+                    <option value="Hail">Hail </option>
+                    <option value="Hurricane">Hurricane </option>
+                    <option value="thunderstorm">Thunderstorm </option>
+                    <option value="tornado">Tornado </option>
+                </select>
+            </label>
         </fieldset>
             
         <fieldset>
@@ -91,9 +92,7 @@
             
         </fieldset>
             
-        <input type="submit" value = "Propose My Course" class="submitBtn">
-        OR
-        <button type="submit">Send Data</button>
+        <input type="submit" value = "Report Weather" class="submitBtn">
     
         </form>
 
@@ -111,8 +110,8 @@
 <script src="js/hamburger.js"></script>
 <script src="js/windchill.js"></script>
 <script src="js/imagehandling.js"></script>
-<script src="js/webfontload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
 
 </body>
 </html>
