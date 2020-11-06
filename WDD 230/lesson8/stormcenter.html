@@ -52,15 +52,15 @@
             <legend>Contact Information</legend>
             <label class="top">Full Name* <input type="text" name="fullname" required pattern="[a-zA-Z].{5,}"></label>
             <label class="top">Email <input type="email" name="email" placeholder="user@email.com"></label>
-            <label class="top">Phone* <input type="tel" name="phone" required></label>
-            <label class="top">Zipcode* <input type="number" name="number" required></label>
+            <label class="top">Phone* <input type="tel" name="phone" required pattern="[0-9]{7,10}"></label>
+            <label class="top">Zipcode* <input type="text" name="number" required pattern="[0-9]{5}"></label>
         </fieldset>
     
         <fieldset>
             <legend>Storm Information</legend>
             <label class="sbs">Storm Date: <input type="date" name="date"></label>
             <label class="sbs">Storm Type:
-                <select name="stormlist">Storm Type
+                <select name="stormlist">
                     <option value="">Please Select &#9662;</option>
                     <option value="Flash Flood">Flash Flood </option>
                     <option value="Hail">Hail </option>
@@ -90,7 +90,7 @@
             
             <label class="sbs">Storm Region:
                 <select name="region">
-                    <option selected ="true" disabled="disabled">Select Region ... &#9662;</option>
+                    <option selected disabled="disabled">Select Region ... &#9662;</option>
                     <option value="preston">Preston</option>
                     <option value="soda springs">Soda Springs</option>
                     <option value="fish haven">Fish Haven</option>
@@ -105,7 +105,7 @@
             
         <fieldset>
         <legend>Additional Information</legend>
-        <textarea rows="12" cols="50" name="comment" form="usrform">Additional information or comments...</textarea>
+        <textarea rows="12" cols="50" name="comment">Additional information or comments...</textarea>
             
         </fieldset>
             
