@@ -3,84 +3,115 @@
 
     /*----------- FORM -------------*/
 
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-  }
-  
-  form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-  }
-  
-  form label.top {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
-  }
-
-  form label.sbs {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
-  }
-  
-  form label.top input, form label.top select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: 1px solid #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
-  }
-
-  form label.sbs input, form label.sbs select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: 1px solid #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
-  }
-  
-  form label.sbs select {
-    padding: .5rem .5rem;
-  }
-  
-  form input.submitBtn {
-    border: none;
-    background-color: #9c2c13;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-  }
-  
-  form label.top input:required {
-    border-left: red solid 6px;
-  }
-  
-  form label.top input:required:valid {
-    border-left: green solid 6px;
-  }
+    form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #003577;
+        border-radius: 10px;
+        padding: .5rem 2%;
+      }
+      
+      form legend {
+        color: #003577;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+        font-size: 1.25rem;
+      }
+      
+      form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+      }
     
+      form label.sbs {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+      }
+      
+      form label.top input, form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding: .5rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+      }
+    
+      form label.sbs input, form label.sbs select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding: .25rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+      }
+      
+      form label.sbs select {
+        padding: .5rem .5rem;
+      }
+
+      .stormrating {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #003577;
+        font-size: 1rem;
+    }
+    
+    #ratingvalue {
+        margin: 0 15px;
+    }
+
+    form label.danger {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+        padding-bottom: .25rem;
+      }
+
+    form label.pickone {
+        display: flex;
+    }
+      
+    form input.submitBtn {
+        border: none;
+        background-color: #F1D302;
+        font-weight: bold;
+        color: #003577;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+      }
+      
+    form label.top input:required {
+        border-left: red solid 6px;
+    }
+      
+    form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+        
     form label.sbs {
         padding: .4rem 0;
+    }
+
+    textarea {
+        font-size: .9rem;
     }
     
     header {
@@ -192,5 +223,58 @@ form fieldset {
         margin: auto;
         max-width: 1020px;
       }
+
+    .thanks {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        padding-top: 75px;
+    }
+
+    .followup {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        padding-bottom: 50px;
+      }
+
+      .fancy {
+        position: relative;
+        margin: 75px auto 75px;
+        width: 500px;
+        height: 225px;
+        background-color: #BBDEF0;
+        }
+        
+        .fancy:before, .block:after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: -2px;
+        background: linear-gradient(45deg, #BBDEF0, #005377, #005377, #005377, #005377, #F1D302, #005377, #005377, #BBDEF0, #005377);
+        background-size: 500%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        animation: steam 20s linear infinite;
+        }
+        
+        @keyframes steam {
+        0% {
+        background-position: 0 0;
+        }
+        50% {
+        background-position: 400% 0;
+        }
+        100% {
+        background-position: 0 0;
+        }
+        }
+        
+        .fancy:after {
+        filter: blur(50px);
+        }
 
 } /*end large */
