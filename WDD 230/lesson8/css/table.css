@@ -37,6 +37,11 @@ tbody tr th {
     color:#ffffff;
 }
 
+.unique {
+    background-color: #628ca6;
+    color: white;
+}
+
 td[colspan="2"] {
     text-align: center;
 }
