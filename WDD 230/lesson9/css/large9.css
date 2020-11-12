@@ -105,12 +105,14 @@
 
     .article-container h3, h4 {
         text-align: left;
+        padding: 0 0 0 5px;
     }
 
     .article-container p {
         font-family: Raleway, sans-serif;
-        font-size: 14px;
+        font-size: 15px;
         color: #005377;
+        padding: 0 0 0 5px;
     }
 
     .contact-grid {
