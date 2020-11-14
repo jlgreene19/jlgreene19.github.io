@@ -9,6 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
+        let info = document.createElement('div');
         let h2 = document.createElement('h2');
         let motto = document.createElement('p');
         let yearFounded = document.createElement('p');
@@ -22,15 +23,23 @@ fetch(requestURL)
         currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averageRainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
 
-        card.appendChild(h2);
+        info.appendChild(h2);
+        info.appendChild(motto);
+        info.appendChild(yearFounded);
+        info.appendChild(currentPopulation);
+        info.appendChild(averageRainfall);
+
+        card.appendChild(info);
+        /* card.appendChild(h2);
         card.appendChild(motto);
         card.appendChild(yearFounded);
         card.appendChild(currentPopulation);
         card.appendChild(averageRainfall);
+        card.appendChild(image); */
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
-        image.setAttribute('src', towns[i].photo);
-        image.setAttribute('alt', towns[i].name + ' ' + towns[i].lastname + ' - ' + towns[i].order);
+        image.setAttribute('src', 'images/' + towns[i].photo);
+        image.setAttribute('alt', towns[i].name + ' with photo');
     }
   });

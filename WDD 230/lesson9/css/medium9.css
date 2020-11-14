@@ -3,7 +3,7 @@
 
 	header img {
 		width: 100%;
-    }
+	}
     
     body {
         background-color: #BBDEF0;
@@ -74,8 +74,9 @@
         background-color: #F1D302;
         float: none;
         padding: 5px;
-	}
-	
+    }
+
+
     h3, h4 {
         text-align: center;
         color: #005377;
@@ -97,6 +98,36 @@
         font-size: 15px;
         color: #005377;
         padding: 0 3px 0 3px;
+    }
+
+    .cards section {
+        overflow: hidden;
+         display:  block;
+         width: 90%;
+    }
+     
+    .cards section:nth-child(odd) div { 
+         float:left; 
+    }
+
+    .cards section:nth-child(odd) img {
+          float:right;
+    }
+
+    .cards section:nth-child(even) div { 
+        float:right; 
+    }
+    
+    .cards section:nth-child(even) img {
+         float:left;
+    }
+
+    .cards section div {
+        margin-top: 55px;
+    }
+
+    .cards section:nth-child(even) div{
+        margin-top: 55px;
     }
 
     nav a {

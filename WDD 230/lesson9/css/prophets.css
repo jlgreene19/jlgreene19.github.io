@@ -48,7 +48,7 @@ main img {
     max-height: 80%;
     display: block;
     margin: auto;
-    box-shadow : 0 0 25px #003577;
+    box-shadow : 0 0 25px #005377;
 }
     
 body {
@@ -58,12 +58,12 @@ body {
 .cards {
     border: 1px solid transparent;
     padding: 10px 10px;
-    box-shadow : 0 0 25px #003577;
+    box-shadow : 0 0 25px #005377;
 }
     
 section {
     background-color: #00AFB5;
-    border: 1px solid #003577;
+    border: 1px solid #005377;
     padding: 1em;
     margin: .25em;
 }
@@ -74,12 +74,12 @@ h2 {
 
 h1, h2, p {
     text-align: center;
-    color: #003577;
+    color: #005377;
 }
     
 footer {
     text-align: center;
-    color: #003577;
+    color: #005377;
     margin-top: 15px;
 }
 
