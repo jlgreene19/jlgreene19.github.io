@@ -74,6 +74,7 @@
         background-color: #F1D302;
         float: none;
         padding: 5px;
+        margin-bottom: 20px;
     }
 
 
@@ -104,6 +105,16 @@
         overflow: hidden;
          display:  block;
          width: 90%;
+    }
+
+    .cards h2 { 
+        text-shadow: none;
+    }
+
+    .cards img {
+        width: 50%;
+       
+        display: block;
     }
      
     .cards section:nth-child(odd) div { 
@@ -196,6 +207,7 @@
     }
 
     .griditem1 img {
+        margin-top: 10px;
         width: 35%;
         height: auto;
     }

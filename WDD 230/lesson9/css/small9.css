@@ -151,6 +151,7 @@ main > h1 {
   background-color: #F1D302;
   float: none;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 h3, h4 {
@@ -184,9 +185,9 @@ h3, h4 {
 .cards {
   color: #005377;
   font-size: .8em;
-  margin: 4em;
+  margin: auto 0;
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 1.5em;
 }
 
 .cards section {
@@ -204,7 +205,7 @@ h3, h4 {
   font-size: 1.5em;
   margin-top: 5px;
   text-align: center;
-  text-shadow: 3px 3px 1.5px #BBDEF0;
+  text-shadow: none;
   color: #005377;
 }
 
@@ -218,7 +219,7 @@ h3, h4 {
   color: #005377;
 }
 
-cards img {
+.cards img {
   width: 200px;
   padding: 0;
 }
@@ -265,16 +266,17 @@ footer {
 
 .griditem1 {
   text-align: center;
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 1;
-      grid-row-end: 6;
-  }
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  margin-top: 25px;
+}
 
-  .griditem1 img {
-      width: 35%;
-      height: auto;
-  }
+.griditem1 img {
+  width: 35%;
+  height: auto;
+}
 
 .griditem3 {
   text-align: right;
