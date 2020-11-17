@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="filler">
+<meta name="author" content="name here">
+
+<title>W10 Activity: Weather API</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize9.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small9.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium9.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large9.css" rel="stylesheet">
+<!-- css file for home-wireframe.html file only -->
+<link href="css/wireframe.css" rel="stylesheet">
+     
+</head>
+<body>
+        <div id="pancakes"></div>
+<!-- HEADER HERE -->
+
+<header>
+	<picture>
+		<img src="images/sunandcloud2.png" alt="website logo">
+	</picture>
+	<section class="headings">
+		<h1>Weather The Storm 24</h1>
+		<div class="quote">Here for you 24 hours a day</div>
+	</section>
+</header>
+
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://jlgreene19.github.io/wdd230/lesson9/index.html"><b>Home</b></a></li>
+            <li><a href="https://jlgreene19.github.io/wdd230/lesson4/preston-4.html"><b>Preston</b></a></li>
+            <li><a href="#"><b>Soda Springs</b></a></li>
+            <li><a href="#"><b>Fish Haven</b></a></li>
+            <li><a href="https://jlgreene19.github.io/wdd230/lesson8/stormcenter.html"><b>Storm Center</b></a></li>
+            <li><a href="https://jlgreene19.github.io/wdd230/lesson7/gallery-7.html"><b>Gallery</b></a></li>
+            <li class="active"><a href="https://jlgreene19.github.io/wdd230/lesson9/home-wireframes.html"><b>Wireframes</b></a></li>
+        </ul>
+    </nav>
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+        <hr>
+        <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    &copy; <span id="copyright"></span> | Weather The Storm 24 | Attributions | Jeremy Greene
+    <div id="currentday"></div>
+</footer>
+
+<script src="js/weatherapi.js"></script>
+
+</body>
+</html>
