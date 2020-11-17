@@ -1,0 +1,232 @@
+/* Larger viewports */
+@media only screen and (min-width: 40em) {
+
+	header img {
+		width: 100%;
+	}
+
+	body > #pancakes {
+        height: 60px;
+        text-align: center;
+        background-color: #F1D302;
+        color: #005377;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.quote {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+    
+    .herodiv {
+        margin: auto;
+        width: 95%;
+        height: auto;
+    }
+
+    .hero-ph img {
+        margin: auto;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+      }
+    
+	.weathersummary {
+		top: 25px;
+		left: 25px;
+		bottom: 25px;
+		padding: .5rem;
+		color: #005377;
+		font-weight: bold;
+		font-family: Raleway, sans-serif;
+	}
+
+	.fivedaytext > h3 {
+		text-align: center;
+		color: #005377;
+		font-family: Roboto Slab, serif;
+	}
+
+	.forecast-ph img {
+        margin: auto;
+        background-repeat: no-repeat;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #005377;
+	}
+	
+	.article-container {
+        margin: 10px auto;
+		width: 650px;
+        background-color: #F1D302;
+        float: none;
+        padding: 5px;
+	}
+	
+    h3, h4 {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+    }
+
+    .article-container h4 {
+        margin: -12px 0 20px 0;
+    }
+
+    .article-container h3, h4 {
+        text-align: left;
+    }
+
+    .article-container p {
+        font-family: Raleway, sans-serif;
+        font-size: 14px;
+        color: #005377;
+    }	
+
+    nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    .nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  .wrapper > div {
+		border-radius: 5px;
+		background-color: #BBDEF0;
+		padding: 1em;
+		margin: 5px;
+	  }
+	  .wrapper {
+		display: block;
+	  }
+	  
+	  .wrapper > div {
+		max-width: 780px;
+	  }
+
+	  footer {
+		color: var(--paragraph-color-on-color);
+		background-color: var(--text-background-color);
+		padding: 20px 0;
+		display: block;
+		align-items:center;
+		justify-content:center;
+		max-width: 100%;
+	}
+
+	.griditem1 {
+		text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+
+    .griditem1 img {
+        width: 35%;
+        height: auto;
+    }
+
+	.griditem3 {
+        text-align: right;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+		grid-row-end: 3;
+		margin: 0 5px 0 0;
+    }
+
+    .griditem4 {
+        text-align: right;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+		grid-row-end: 4;
+		margin: 0 5px 0 0;
+    }
+
+    .griditem5 {
+		text-align: right;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+		grid-row-end: 5;
+		margin: 0 5px 0 0;
+	}
+}
+
+body {
+    background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+    color: var(--paragraph-color-on-color);
+    background-color: var(--text-background-color);
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+    color: #BBDEF0;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.quote {
+	font-style: italic;
+	letter-spacing: 1pt;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--text-background-color);
+	margin-left: 20px;
+	font-size: .9rem;
+}

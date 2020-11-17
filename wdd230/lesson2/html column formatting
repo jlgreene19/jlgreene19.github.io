@@ -1,0 +1,49 @@
+</header>
+
+<h3>Design Principles</h3>
+<h2>Jeremy Greene</h2>
+<div id="columns">
+    <article id="something1">
+        <h3>heading1</h3>
+        <h4>heading1a</h4>
+        <a href="http://www.website1.com" target="_blank>website1.com</a><br>
+        <img src ="images/image1.jpg" alt="website1 screenshot">
+        <p>some text here describing the website.</p>
+    </article>
+    <article id="something2">
+        <h3>heading2</h3>
+        <h4>heading2a</h4>
+        <a href="http://www.website2.com" target="_blank>website2.com</a><br>
+        <img src ="images/image2.jpg" alt="website2 screenshot">
+        <p>some text here describing the website.</p>
+    </article>
+    <article id="something3">
+        <h3>heading3</h3>
+        <h4>heading3a</h4>
+        <a href="http://www.website3.com" target="_blank>website3.com</a><br>
+        <img src ="images/image3.jpg" alt="website3 screenshot">
+        <p>some text here describing the website.</p>
+    </article>
+
+
+CSS FOR COLUMNS:
+
+#columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+}
+
+#columns h3 {
+    padding: 12px;
+    background-color: gray;
+    color: white;
+}
+
+#columns img{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}

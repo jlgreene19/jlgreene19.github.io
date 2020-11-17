@@ -1,0 +1,257 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #BBDEF0;
+    --secondary-color: #005377;
+    --accent1-color: #F1D302;
+    --accent2-color: #00AFB5;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Roboto Slab", serif;
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+  
+    /* colors below are for the website color scheme */
+    --headline-color-on-white: black;  /* headlines on a white background */ 
+    --headline-color-on-color: #00AFB5; /* headlines on a colored background */ 
+    --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #BBDEF0; /* paragraph text on a colored background */ 
+    --text-background-color: #005377;
+    --nav-link-color: #005377;
+    --nav-background-color: #F1D302;
+    --nav-hover-link-color: #005377;
+    --nav-hover-background-color: #BBDEF0;
+  }
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+header {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  padding: 1em;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+}
+
+.quote {
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  margin-top: -23px;
+  margin-left: 15px;
+  font-size: .9rem;
+}
+
+.herodiv {
+  margin: auto;
+  width: 95%;
+  height: auto;
+}
+
+.hero-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+body > #pancakes {
+  height: 60px;
+  text-align: center;
+  background-color: #F1D302;
+  color: #005377;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 60px;
+}
+
+body {
+  background-color: #BBDEF0;
+}
+
+main > h1 {
+  text-align: center;
+  padding: 30px 0 0 0;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+    /*----------- FORM -------------*/
+
+    form {
+      margin-top: -15px;
+    }
+    
+    form fieldset {
+      margin: 2rem 0;
+      border: 1px solid #003577;
+      border-radius: 10px;
+      padding: .5rem 2%;
+    }
+    
+    form legend {
+      color: #003577;
+      margin: 0 1rem;
+      padding: 0 .5rem;
+    }
+    
+    form label.top {
+      display: block;
+      padding-top: 1rem;
+      color: #003577;
+      font-size: .8rem;
+    }
+  
+    form label.sbs {
+      display: block;
+      padding-top: 1rem;
+      color: #003577;
+      font-size: .8rem;
+    }
+    
+    form label.top input, form label.top select {
+      -webkit-appearance: none;
+      display: block;
+      font-size: 1rem;
+      border: 1px solid #999;
+      border-radius: 4px;
+      padding: .75rem;
+      color: #555;
+      width: 100%;
+      max-width: 20rem;
+      background-color: rgba(0,0,0,0.1);
+    }
+  
+    form label.sbs input, form label.sbs select {
+      -webkit-appearance: none;
+      display: block;
+      font-size: 1rem;
+      border: 1px solid #999;
+      border-radius: 4px;
+      padding: .75rem;
+      color: #555;
+      width: 100%;
+      max-width: 20rem;
+      background-color: rgba(0,0,0,0.1);
+    }
+    
+    form label.sbs select {
+      padding: .5rem .5rem;
+    }
+    
+    form input.submitBtn {
+      border: none;
+      background-color: #F1D302;
+      color: #003577;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 0 0 2rem 2%;
+      width: 96%;
+      max-width: 20rem;
+    }
+    
+    form label.top input:required {
+      border-left: red solid 6px;
+    }
+    
+    form label.top input:required:valid {
+      border-left: green solid 6px;
+    }
+      
+    form label.sbs {
+      padding: .4rem 0;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-family: "Roboto Slab", serif;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #003577;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+  background-color: rgba(0,53,119,1);
+  color: #fff;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+main > h1 {
+  margin: 5px 0 5px 10px;
+  color: #005377;
+}
+
+* {
+  box-sizing: border-box;
+  }
+  
+.wrapper > div {
+  border-radius: 5px;
+  background-color: #BBDEF0;
+  padding: 1em;
+  margin: 5px;
+}
+
+.wrapper {
+  display: block;
+
+}
+
+footer {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  padding: 20px 0;
+  display: block;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  max-width: 100%;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

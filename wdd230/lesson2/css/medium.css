@@ -1,0 +1,77 @@
+@media only screen and (max-width: 65em) {
+    main {
+        max-width: 500px;
+    }
+
+    .grid1 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .img1 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+    .img2 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+    .img3 {
+        border-radius: 5px;
+        overflow: hidden;
+        grid-column: 3/4;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    .white-space-info {
+        margin: 7px 28px 0 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .parc-alignment-info {
+        margin: 7px 28px 0 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .rule-of-thirds-info {
+        margin: 7px 28px 10px 0;
+        text-align: justify;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
