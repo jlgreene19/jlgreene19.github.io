@@ -68,6 +68,56 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 
+/* Grid */
+.fivedaygrid { 
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.fivedaygrid {
+	border-right: 1px solid #005377;
+}
+
+.grid-col {
+	border-bottom: 1px solid #005377;
+	border-left: 1px solid black;
+    text-align: center;
+}
+
+.grid-col {
+	background-color: ghostwhite;
+}
+
+.grid-col img {
+    margin-top: 5px;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #005377;
+    text-align: center;
+}
+
+.col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #005377;
+	color: white;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
 nav {
   background-color: var(--nav-background-color);
   font-family: "Roboto Slab", serif;

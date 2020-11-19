@@ -15,7 +15,7 @@ function windChill(temp, wSpeed) {
         return windChill;
     }
     else {
-        if (temp > 50 || wSpeed <= 3)
+        
         document.getElementById("windChill").textContent = "N/A";
     }
 }

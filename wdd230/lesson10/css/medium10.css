@@ -195,12 +195,6 @@
 	}
 }
 
-body {
-    background-color: white;
-	padding: 0;
-	margin: 0;
-}
-
 header {
     color: var(--paragraph-color-on-color);
     background-color: var(--text-background-color);

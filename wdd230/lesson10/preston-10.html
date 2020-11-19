@@ -10,13 +10,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <!-- STYLE SHEETS -->
-<link href="css/normalize3.css" rel="stylesheet">
+<link href="css/normalize10.css" rel="stylesheet">
 <!-- phone-default -->
-<link href="css/small3.css" rel="stylesheet">
+<link href="css/small10.css" rel="stylesheet">
 <!-- enhance-tablet -->
-<link href="css/medium3.css" rel="stylesheet">
+<link href="css/medium10.css" rel="stylesheet">
 <!-- enhance-desktop -->
-<link href="css/large3.css" rel="stylesheet">
+<link href="css/large10.css" rel="stylesheet">
      
 </head>
 <body>
@@ -55,19 +55,41 @@
             <section class="weathersummary">
                 <h2>Weather Summary</h2>
                 <hr class="hr">
-                <p>Currently: Cloudy</p>
-                <p>Temp: <span id="temp">46</span>&deg;</p>
-                <p>Wind Chill: <span id="windChill"></span>&deg;</p>
-                <p>Humidity: 1&deg;</p>
-                <p>Wind Speed: <span id="wSpeed">7</span> mph</p>
+                <p>Currently: <span id="currently"></span></p>
+                <p>Temp: <span id="temp"></span>&deg; F</p>
+                <p>Wind Chill: <span id="windChill"></span>&deg; F</p>
+                <p>Humidity: <span id="humidity"></span>&deg; </p>
+                <p>Wind Speed: <span id="wSpeed"></span> mph</p>
             </section>
         </div>
         <div class="fivedaytext">
         <h3>5 Day Forecast</h3>
         </div>
-        <div class="forecastdiv">
-            <div class="forecast-ph">
-                <img src="images/weather.png" alt="5 day forecast image">
+        <div class="fivedaygrid">
+            <div class="grid-col">
+                <span class="col-head">Wed</span>
+                <img src="http://www.placekitten.com/50/50" alt="kitten!">
+                <span class="data">Temp</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Thu</span>
+                <img src="http://www.placekitten.com/50/50" alt="kitten!">
+                <span class="data">Temp</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Fri</span>
+                <img src="http://www.placekitten.com/50/50" alt="kitten!">
+                <span class="data">Temp</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sat</span>
+                <img src="http://www.placekitten.com/50/50" alt="kitten!">
+                <span class="data">Temp</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sun</span>
+                <img src="http://www.placekitten.com/50/50" alt="kitten!">
+                <span class="data">Temp</span>
             </div>
         </div>
             <div class="article-container">
@@ -122,6 +144,7 @@
 <script src="js/currentday.js"></script>
 <script src="js/copyright.js"></script>
 <script src="js/hamburger.js"></script>
+<script src="js/weatherinfo.js"></script>
 <script src="js/windchill.js"></script>
 <script src="js/webfontload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
