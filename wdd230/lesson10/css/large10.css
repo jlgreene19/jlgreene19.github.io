@@ -96,14 +96,14 @@
     margin-top: 5px;
 }
 
-.col-head {
+.dayofweek {
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #005377;
     text-align: center;
 }
 
-.col-head {
+.dayofweek {
 	font-weight: 700;
 	font-size: 1rem;
 	background-color: #005377;

@@ -97,21 +97,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5px;
 }
 
-.col-head {
+.dayofweek {
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #005377;
     text-align: center;
 }
 
-.col-head {
+.dayofweek {
 	font-weight: 700;
 	font-size: 1rem;
 	background-color: #005377;
 	color: white;
 }
 
-.data {
+.forecast {
 	display: block;
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
