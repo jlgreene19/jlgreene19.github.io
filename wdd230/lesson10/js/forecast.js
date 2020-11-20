@@ -24,10 +24,7 @@ fetch(apiURL)
 
         card.appendChild(icon);
 
-        day++;
-
-
- 
+        day++
         
     })
   });
