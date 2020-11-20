@@ -12,7 +12,7 @@ fetch(apiURL)
     forecast.forEach(x => {
         const d = new Date(x.dt_txt);
         document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
+        document.getElementById(`forecast${day+1}`).textContent = x.main.temp + "\xB0" + "F";
         day++;
     })
   });

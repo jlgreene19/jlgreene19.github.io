@@ -96,21 +96,105 @@
     margin-top: 5px;
 }
 
-.dayofweek {
+#dayofweek1 {
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #005377;
     text-align: center;
 }
 
-.dayofweek {
+#dayofweek1 {
 	font-weight: 700;
 	font-size: 1rem;
 	background-color: #005377;
 	color: white;
 }
 
-.data {
+#forecast1 {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#dayofweek2 {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #005377;
+    text-align: center;
+}
+
+#dayofweek2 {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #005377;
+	color: white;
+}
+
+#forecast2 {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#dayofweek3 {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #005377;
+    text-align: center;
+}
+
+#dayofweek3 {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #005377;
+	color: white;
+}
+
+#forecast3 {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#dayofweek4 {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #005377;
+    text-align: center;
+}
+
+#dayofweek4 {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #005377;
+	color: white;
+}
+
+#forecast4 {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#dayofweek5 {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #005377;
+    text-align: center;
+}
+
+#dayofweek5 {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #005377;
+	color: white;
+}
+
+#forecast5 {
 	display: block;
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
