@@ -1,6 +1,6 @@
-var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
+var apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
 
-fetch(apiURL)
+fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);

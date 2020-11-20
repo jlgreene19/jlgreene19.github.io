@@ -19,7 +19,7 @@ fetch(apiURL)
         document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = x.main.temp + "\xB0" + "F";
         
-        icon.setAttribute('src', 'http://openweathermap.org/img/wn/' + forecast[day].weather[0].icon + '.png');
+        icon.setAttribute('src', 'http://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png');
         icon.setAttribute('alt', forecast[day].weather[0].description);
 
         card.appendChild(icon);
