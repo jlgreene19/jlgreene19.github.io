@@ -114,8 +114,9 @@ h1, h2, h3, h4, h5, h6 {
 #forecast1 {
 	display: block;
 	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 #dayofweek2 {
@@ -135,8 +136,9 @@ h1, h2, h3, h4, h5, h6 {
 #forecast2 {
 	display: block;
 	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 #dayofweek3 {
@@ -156,8 +158,9 @@ h1, h2, h3, h4, h5, h6 {
 #forecast3 {
 	display: block;
 	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 #dayofweek4 {
@@ -177,8 +180,9 @@ h1, h2, h3, h4, h5, h6 {
 #forecast4 {
 	display: block;
 	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 #dayofweek5 {
@@ -198,8 +202,9 @@ h1, h2, h3, h4, h5, h6 {
 #forecast5 {
 	display: block;
 	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+	font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 
