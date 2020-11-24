@@ -1,0 +1,15 @@
+main > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+main > h1 {
+    color: #003577;
+}
+
+main > h2 {
+    color: #003577;
+    text-align: center;
+}
