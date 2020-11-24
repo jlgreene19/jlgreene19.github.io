@@ -46,27 +46,6 @@
         height: 500px;
     }
 
-    .weathersummary {
-        position: absolute;
-        top: 35px;
-        left: 35px;
-        bottom: 220px;
-        background: radial-gradient(#BBDEF0, #BBDEF0);
-        border: 1px solid #005377;
-        padding: .5rem;
-        box-shadow: 0 0 30px #BBDEF0;
-        color: #005377;
-        font-weight: bold;
-        font-family: Raleway, sans-serif;
-        opacity: 0.85;
-    }
-
-    .weathersummary h2 {
-        text-align: center;
-        font-weight: bold;
-        margin: 10px 0 0 0;
-    }
-
     hr {
         border: 2px solid #005377;
     }
@@ -183,6 +162,14 @@
 
     .cards section:nth-child(5) div {
         margin-right: 95px;
+    }
+
+    .cards section:nth-child(7) div h2{
+        margin-right: 90px;
+    }
+
+    .cards section:nth-child(7) div p{
+        margin-right: 75px;
     }
 
     .contact-grid {

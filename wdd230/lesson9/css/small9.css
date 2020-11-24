@@ -118,16 +118,6 @@ main > h1 {
   color: #005377;
 }
 
-.weathersummary {
-  top: 25px;
-  left: 25px;
-  bottom: 25px;
-  padding: .5rem;
-  color: #005377;
-  font-weight: bold;
-  font-family: Raleway, sans-serif;
-}
-
 .fivedaytext > h3 {
   text-align: center;
   color: #005377;

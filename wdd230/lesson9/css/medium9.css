@@ -41,16 +41,6 @@
         height: auto;
         width: 100%;
       }
-    
-	.weathersummary {
-		top: 25px;
-		left: 25px;
-		bottom: 25px;
-		padding: .5rem;
-		color: #005377;
-		font-weight: bold;
-		font-family: Raleway, sans-serif;
-	}
 
 	.fivedaytext > h3 {
 		text-align: center;
@@ -76,7 +66,6 @@
         padding: 5px;
         margin-bottom: 20px;
     }
-
 
     h3, h4 {
         text-align: center;
@@ -137,7 +126,7 @@
         margin-top: 55px;
     }
 
-    .cards section:nth-child(even) div{
+    .cards section:nth-child(even) div {
         margin-top: 55px;
     }
 
