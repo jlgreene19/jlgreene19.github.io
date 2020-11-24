@@ -26,6 +26,8 @@
 
     main h1 {
         text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .hero-ph {
@@ -79,17 +81,15 @@
     }
 
     .fivedaygrid {
-        border-right: 1px solid #005377;
+        border-right: 2px solid #F1D302;
     }
 
     .grid-col {
-        border-bottom: 1px solid #005377;
-        border-left: 1px solid black;
-        text-align: center;
-    }
-
-    .grid-col {
+        border-top: 2px solid #F1D302;
+        border-bottom: 2px solid #F1D302;
+        border-left: 2px solid #F1D302;
         background-color: ghostwhite;
+        text-align: center;
     }
 
     .grid-col img {
@@ -99,7 +99,7 @@
     #dayofweek1 {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #005377;
+        border-bottom: 2px solid #F1D302;
         text-align: center;
     }
 
@@ -121,7 +121,7 @@
     #dayofweek2 {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #005377;
+        border-bottom: 2px solid #F1D302;
         text-align: center;
     }
 
@@ -143,7 +143,7 @@
     #dayofweek3 {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #005377;
+        border-bottom: 2px solid #F1D302;
         text-align: center;
     }
 
@@ -165,7 +165,7 @@
     #dayofweek4 {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #005377;
+        border-bottom: 2px solid #F1D302;
         text-align: center;
     }
 
@@ -187,7 +187,7 @@
     #dayofweek5 {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #005377;
+        border-bottom: 2px solid #F1D302;
         text-align: center;
     }
 
@@ -224,9 +224,11 @@
 
     .events hr {
         border: none;
+        width: 90%;
         background-color:#00AFB5;
         color: #00AFB5;
         height: 3px;
+        margin-bottom: 26px;
     }
 
     .article-container {
@@ -234,7 +236,8 @@
         width: 700px;
         background-color: #F1D302;
         float: none;
-        padding: 5px;
+        border: 1px solid #005377;
+        padding: 10px;
     }
 
     h3, h4 {
