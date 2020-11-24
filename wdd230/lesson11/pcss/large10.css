@@ -206,6 +206,29 @@
         margin-top: -10px;
     }
 
+    .events {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 7px;
+        border: 10px solid #005377;
+        box-shadow: 0 0 30px #F1D302;
+        margin-bottom: 45px;
+    }
+
+    .events p, h2 {
+        color: #005377;
+    }
+
+    .events hr {
+        border: none;
+        background-color:#00AFB5;
+        color: #00AFB5;
+        height: 3px;
+    }
+
     .article-container {
         margin: 10px auto;
         width: 700px;
