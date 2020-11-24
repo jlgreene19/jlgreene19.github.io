@@ -325,7 +325,7 @@
         padding: 10px;
     }
 
-    .contact-grid>div {
+    .contact-grid > div {
         background-color: #BBDEF0;
     }
 
@@ -448,7 +448,6 @@
         margin: auto;
         max-width: 1020px;
     }
-
 }
 
 /*end large */
