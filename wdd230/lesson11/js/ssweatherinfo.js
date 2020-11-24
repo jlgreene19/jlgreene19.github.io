@@ -1,4 +1,4 @@
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
+const apiURLss2 = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
 
 function windChill(temp, wSpeed) {
   if (temp <= 50 && wSpeed >= 3) {
@@ -21,7 +21,7 @@ function output() {
   document.getElementById("windChill").textContent = output.toFixed(0);
 }
 
-fetch(apiURL2)
+fetch(apiURLss2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
