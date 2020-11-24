@@ -321,6 +321,57 @@ h3, h4 {
   float: right;
 }
 
+.cards {
+  color: #005377;
+  font-size: .8em;
+  margin: auto 0;
+  display: grid;
+  grid-gap: 1.5em;
+}
+
+.cards section {
+  background-color: #00AFB5;
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+  box-shadow : 0 0 25px #005377;
+  font-weight: bold;
+}
+
+.cards h2 { 
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: none;
+  color: #005377;
+}
+
+.cards p:nth-child(2) {
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  color: #005377;
+}
+
+.cards img {
+  width: 200px;
+  padding: 0;
+}
+
+.cards p {
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: -7px;
+  font-weight: bold;
+  color: #005377;
+}
+
 * {
   box-sizing: border-box;
   }

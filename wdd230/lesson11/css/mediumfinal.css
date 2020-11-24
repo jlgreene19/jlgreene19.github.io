@@ -17,7 +17,13 @@
 
     body {
         background-color: #BBDEF0;
-      }
+    }
+
+    main h1 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 	.headings h1 {
 		font-size: 3rem;
@@ -95,7 +101,47 @@
         font-family: Raleway, sans-serif;
         font-size: 14px;
         color: #005377;
-    }	
+    }
+
+    .cards section {
+        overflow: hidden;
+         display:  block;
+         width: 90%;
+    }
+
+    .cards h2 { 
+        text-shadow: none;
+    }
+
+    .cards img {
+        width: 50%;
+       
+        display: block;
+    }
+     
+    .cards section:nth-child(odd) div { 
+         float:left; 
+    }
+
+    .cards section:nth-child(odd) img {
+          float:right;
+    }
+
+    .cards section:nth-child(even) div { 
+        float:right; 
+    }
+    
+    .cards section:nth-child(even) img {
+         float:left;
+    }
+
+    .cards section div {
+        margin-top: 55px;
+    }
+
+    .cards section:nth-child(even) div {
+        margin-top: 55px;
+    }
 
     nav a {
         float: none;
