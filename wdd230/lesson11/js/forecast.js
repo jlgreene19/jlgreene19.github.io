@@ -16,7 +16,7 @@ fetch(apiURL)
         let icon = document.getElementById(`icon${day+1}`);
 
         document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = x.main.temp + "\xB0" + "F";
+        document.getElementById(`forecast${day+1}`).textContent = x.main.temp.toFixed(0) + "\xB0" + "F";
         
         icon.setAttribute('src', 'http://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png');
         icon.setAttribute('alt', forecast[day].weather[0].description);
