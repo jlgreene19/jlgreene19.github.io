@@ -1,0 +1,287 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    /*----------- FORM -------------*/
+
+    form {
+        margin-left: 15%;
+        margin-right:15%;
+        width: 70%;
+    }
+
+    form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #003577;
+        border-radius: 10px;
+        padding: .5rem 2%;
+      }
+      
+      form legend {
+        color: #003577;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+        font-size: 1.25rem;
+      }
+      
+      form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+      }
+    
+      form label.sbs {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+      }
+      
+      form label.top input, form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding: .5rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+      }
+    
+      form label.sbs input, form label.sbs select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding: .25rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+      }
+      
+      form label.sbs select {
+        padding: .5rem .5rem;
+      }
+
+      .stormrating {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #003577;
+        font-size: 1rem;
+    }
+    
+    #ratingvalue {
+        margin: 0 15px;
+    }
+
+    form label.danger {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+        padding-bottom: .25rem;
+    }
+
+    form label.pickone {
+        display: flex;
+    }
+      
+    form input.submitBtn {
+        border: none;
+        background-color: #F1D302;
+        font-weight: bold;
+        color: #003577;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+      
+    form label.top input:required {
+        border-left: red solid 6px;
+    }
+      
+    form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+        
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    textarea {
+        font-size: .9rem;
+        width: 100%;
+    }
+    
+    header {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quote {
+        font-style: italic;
+        letter-spacing: 1pt;
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        margin-top: -23px;
+        margin-left: 15px;
+        font-size: .9rem;
+    }
+
+    body > #pancakes {
+        height: 60px;
+        text-align: center;
+        background-color: #F1D302;
+        color: #005377;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    body {
+        background-color: #BBDEF0;
+    }
+
+    main > h1 {
+        text-align: center;
+        padding: 0 0 0 0;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    select[stormlist] {
+        line-height: 40px;
+    }
+
+    hr {
+        border: 2px solid #005377;
+    }
+
+    h3, h4 {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+    }
+
+    nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    .nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    footer {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        display: block;
+        align-items:center;
+        justify-content:center;
+        max-width: 1020px;
+        margin: auto;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+
+    .wrapper {
+        display: block;
+        margin: 5px;
+    }
+      
+    .wrapper > div {
+        background-color: #BBDEF0;
+        padding: 1.125em;
+        margin: auto;
+        max-width: 1020px;
+    }
+
+    .thanks {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        padding-top: 75px;
+    }
+
+    .followup {
+        text-align: center;
+        color: #005377;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .fancy {
+        position: relative;
+        margin: 75px auto 75px;
+        width: 500px;
+        height: 225px;
+        background-color: #BBDEF0;
+    }
+        
+    .fancy:before, .block:after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: -2px;
+        background: linear-gradient(45deg, #BBDEF0, #005377, #005377, #005377, #005377, #F1D302, #005377, #005377, #BBDEF0, #005377);
+        background-size: 500%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        animation: steam 20s linear infinite;
+    }
+        
+        @keyframes steam {
+        0% {
+        background-position: 0 0;
+        }
+        50% {
+        background-position: 400% 0;
+        }
+        100% {
+        background-position: 0 0;
+        }
+        }
+        
+        .fancy:after {
+        filter: blur(50px);
+        }
+
+/*end large */

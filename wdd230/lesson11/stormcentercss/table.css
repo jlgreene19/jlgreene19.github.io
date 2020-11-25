@@ -1,0 +1,66 @@
+table {
+    box-shadow : 10px 10px 15px #628ca6;
+}
+
+h1, th, td {
+    font-family: Ubuntu, sans-serif;
+}
+
+thead tr th {
+    line-height: 50px;
+    font-size: 28px;
+}
+
+table, th, td {
+    border: 1px solid darkgray;
+  }
+
+table {
+    border-collapse: collapse;
+    height: 335px;
+    width: 355px;
+}
+
+thead tr:nth-child(1) {
+    background-color:#7fb9c2;
+    line-height: 40px;
+}
+
+tbody {
+    text-align: center;
+    line-height: 40px;
+    font-size: 21px;
+}
+
+tbody tr th {
+    background-color:#628ca6;
+    color:#ffffff;
+}
+
+.unique {
+    background-color: #628ca6;
+    color: white;
+}
+
+td[colspan="2"] {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {background: #e7ffed}
+tbody tr:nth-child(odd) {background: #e7f0ed}
+
+.headings th {
+    background-color: #628ca6;
+    color: white;
+    line-height: 40px;
+    font-size: 21px;
+}
+
+tfoot th {
+    background-color: #7fb9c2;
+    font-size: 11px;
+}
+
+tfoot th {
+    line-height: 28px;
+}
