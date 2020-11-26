@@ -51,6 +51,7 @@ body {
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 body > #pancakes {
@@ -69,144 +70,144 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Grid */
-.fivedaygrid { 
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    max-width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 50px;
+
+.holder {
+  text-align: center; 
 }
 
+/* Grid */
 .fivedaygrid {
-	border-right: 1px solid #005377;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  max-width: 80%;
+  border-right: 2px solid #F1D302;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .grid-col {
-	border-bottom: 1px solid #005377;
-	border-left: 1px solid black;
-    text-align: center;
-}
-
-.grid-col {
-	background-color: ghostwhite;
+  border-top: 2px solid #F1D302;
+  border-bottom: 2px solid #F1D302;
+  border-left: 2px solid #F1D302;
+  background-color: ghostwhite;
+  text-align: center;
 }
 
 .grid-col img {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #dayofweek1 {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #005377;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  border-bottom: 2px solid #F1D302;
+  text-align: center;
 }
 
 #dayofweek1 {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #005377;
-	color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
 }
 
 #forecast1 {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: .9rem;
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
   text-align: center;
   margin-top: -10px;
 }
 
 #dayofweek2 {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #005377;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  border-bottom: 2px solid #F1D302;
+  text-align: center;
 }
 
 #dayofweek2 {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #005377;
-	color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
 }
 
 #forecast2 {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: .9rem;
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
   text-align: center;
   margin-top: -10px;
 }
 
 #dayofweek3 {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #005377;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  border-bottom: 2px solid #F1D302;
+  text-align: center;
 }
 
 #dayofweek3 {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #005377;
-	color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
 }
 
 #forecast3 {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: .9rem;
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
   text-align: center;
   margin-top: -10px;
 }
 
 #dayofweek4 {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #005377;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  border-bottom: 2px solid #F1D302;
+  text-align: center;
 }
 
 #dayofweek4 {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #005377;
-	color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
 }
 
 #forecast4 {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: .9rem;
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
   text-align: center;
   margin-top: -10px;
 }
 
 #dayofweek5 {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #005377;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  border-bottom: 2px solid #F1D302;
+  text-align: center;
 }
 
 #dayofweek5 {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #005377;
-	color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
 }
 
 #forecast5 {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: .9rem;
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
   text-align: center;
   margin-top: -10px;
 }
-
 
 nav {
   background-color: var(--nav-background-color);
@@ -268,6 +269,10 @@ main > h1 {
   font-family: Raleway, sans-serif;
 }
 
+hr {
+  border: 1px solid #F1D302;
+}
+
 .fivedaytext > h3 {
   text-align: center;
   color: #005377;
@@ -285,12 +290,40 @@ main > h1 {
   border: 1px solid #005377;
 }
 
+.events {
+  display: block;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 7px;
+  border: 10px solid #005377;
+  box-shadow: 0 0 30px #F1D302;
+  margin-bottom: 45px;
+}
+
+.events p, h2 {
+  color: #005377;
+}
+
+.events hr {
+  border: none;
+  width: 90%;
+  background-color:#00AFB5;
+  color: #00AFB5;
+  height: 3px;
+  margin-bottom: 26px;
+}
+
 .article-container {
   border: 1px solid #005377;
   margin: 10px 0 10px 0;
   background-color: #F1D302;
   float: none;
   padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 45px;
 }
 
 h3, h4 {
@@ -350,6 +383,7 @@ footer {
 
 .griditem1 {
     text-align: center;
+    margin-bottom: 25px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;

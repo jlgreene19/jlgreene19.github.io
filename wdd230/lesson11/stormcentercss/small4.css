@@ -154,6 +154,10 @@ main > h1 {
       width: 96%;
       max-width: 20rem;
     }
+
+    .fancy {
+      text-align: center;
+    }
     
     form label.top input:required {
       border-left: red solid 6px;

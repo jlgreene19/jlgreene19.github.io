@@ -35,14 +35,16 @@
     }
 
     .container {
-        display:flex; align-items: center; justify-content: center;
+        display:flex; 
+        align-items: center; 
+        justify-content: center;
     }
 
-    main > h1 {
+    main h1 {
         text-align: center;
-        padding: 20px 0 0 0;
-        margin-top: 40px;
-        margin-bottom: -50px;
+        padding: 0 0 0 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     main ul {
@@ -67,15 +69,15 @@
         background: #F1D302;
     }
     
-    figure {
-        margin: 0;
-    }
-    
     .shadow1:hover {
         box-shadow : 0 0 25px #003577;
         background-color: #F1D302;
         text-shadow: 3px 3px 1.5px ghostwhite;
         transition: .5s;
+    }
+
+    .container {
+        margin-top: -80px;
     }
 
     figure img {

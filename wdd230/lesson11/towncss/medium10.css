@@ -19,6 +19,12 @@
         background-color: #BBDEF0;
       }
 
+    main h1 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 	.headings h1 {
 		font-size: 3rem;
 	}
@@ -40,6 +46,7 @@
         background-repeat: no-repeat;
         height: auto;
         width: 100%;
+        margin-bottom: 25px;
       }
     
 	.weathersummary {
@@ -50,7 +57,11 @@
 		color: #005377;
 		font-weight: bold;
 		font-family: Raleway, sans-serif;
-	}
+    }
+
+    hr {
+        border: 1px solid #F1D302;
+    }
 
 	.fivedaytext > h3 {
 		text-align: center;
@@ -66,7 +77,169 @@
         margin-left: auto;
         margin-right: auto;
         border: 1px solid #005377;
-	}
+    }
+    
+    .events {
+        display: block;
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 7px;
+        border: 10px solid #005377;
+        box-shadow: 0 0 30px #F1D302;
+        margin-bottom: 45px;
+    }
+
+    .events p, h2 {
+        color: #005377;
+    }
+
+    .events hr {
+        border: none;
+        width: 90%;
+        background-color:#00AFB5;
+        color: #00AFB5;
+        height: 3px;
+        margin-bottom: 26px;
+    }
+
+    /* Grid */
+    .fivedaygrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        max-width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .fivedaygrid {
+        border-right: 2px solid #F1D302;
+    }
+
+    .grid-col {
+        border-top: 2px solid #F1D302;
+        border-bottom: 2px solid #F1D302;
+        border-left: 2px solid #F1D302;
+        background-color: ghostwhite;
+        text-align: center;
+    }
+
+    .grid-col img {
+        margin-top: 5px;
+    }
+
+    #dayofweek1 {
+        display: block;
+        padding: 5px;
+        border-bottom: 2px solid #F1D302;
+        text-align: center;
+    }
+
+    #dayofweek1 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast1 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek2 {
+        display: block;
+        padding: 5px;
+        border-bottom: 2px solid #F1D302;
+        text-align: center;
+    }
+
+    #dayofweek2 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast2 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek3 {
+        display: block;
+        padding: 5px;
+        border-bottom: 2px solid #F1D302;
+        text-align: center;
+    }
+
+    #dayofweek3 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast3 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek4 {
+        display: block;
+        padding: 5px;
+        border-bottom: 2px solid #F1D302;
+        text-align: center;
+    }
+
+    #dayofweek4 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast4 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek5 {
+        display: block;
+        padding: 5px;
+        border-bottom: 2px solid #F1D302;
+        text-align: center;
+    }
+
+    #dayofweek5 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast5 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
 	
 	.article-container {
         margin: 10px auto;
@@ -74,6 +247,7 @@
         background-color: #F1D302;
         float: none;
         padding: 5px;
+        margin-bottom: 50px;
 	}
 	
     h3, h4 {

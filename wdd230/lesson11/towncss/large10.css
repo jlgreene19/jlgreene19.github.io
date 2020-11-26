@@ -42,6 +42,7 @@
         position: relative;
         width: 1020px;
         height: 500px;
+        margin-bottom: 50px;
     }
 
     .weathersummary {
@@ -208,7 +209,7 @@
 
     .events {
         display: block;
-        width: 40%;
+        max-width: 40%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;

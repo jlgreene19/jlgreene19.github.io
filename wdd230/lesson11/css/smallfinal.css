@@ -44,6 +44,7 @@ body {
   margin: auto;
   width: 95%;
   height: auto;
+  margin-bottom: 25px;
 }
 
 .hero-ph img {
@@ -71,12 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Grid */
 .fivedaygrid { 
 	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    max-width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .fivedaygrid {
@@ -207,7 +208,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -10px;
 }
 
-
 nav {
   background-color: var(--nav-background-color);
   font-family: "Roboto Slab", serif;
@@ -291,6 +291,10 @@ main > h1 {
   background-color: #F1D302;
   float: none;
   padding: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 h3, h4 {
@@ -336,6 +340,7 @@ h3, h4 {
   margin: auto;
   box-shadow : 0 0 25px #005377;
   font-weight: bold;
+  width: 70%;
 }
 
 .cards h2 { 

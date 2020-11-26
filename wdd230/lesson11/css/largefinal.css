@@ -262,7 +262,7 @@
         grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
         padding: 10px 10px;
         list-style: none;
-    }
+    } 
 
     .cards img {
         width: 100%;
