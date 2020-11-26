@@ -24,7 +24,6 @@ function output() {
 fetch(apiURLfh2)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     document.getElementById('currently').textContent = jsObject.weather[0].main;
     document.getElementById('temp').textContent = Math.round(jsObject.main.temp);
     document.getElementById('humidity').textContent = jsObject.main.humidity;
