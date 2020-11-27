@@ -10,7 +10,7 @@
         justify-content: center;
     }
 
-    body > #pancakes {
+    body>#pancakes {
         height: 60px;
         text-align: center;
         background-color: #F1D302;
@@ -207,8 +207,8 @@
         text-align: center;
         margin-top: -10px;
     }
-    
-/*
+
+    /*
     .article-container {
         margin: 10px auto;
         margin-top: 40px;
@@ -222,6 +222,8 @@
 
     .article-container {
         display: block;
+        height: auto;
+        overflow: auto;
         width: 50%;
         float: none;
         margin-top: 40px;
@@ -230,18 +232,27 @@
         border: 1px solid #005377;
     }
 
-    h3, h4 {
+    h3,
+    h4 {
         text-align: center;
         color: #005377;
         font-family: Roboto Slab, serif;
         font-weight: bold;
     }
 
+    .article-img img {
+        padding: 7px 7px 7px 7px;
+        height: auto;
+        float: right;
+        width: 50%;
+    }
+
     .article-container h4 {
         margin: -12px 0 20px 0;
     }
 
-    .article-container h3, h4 {
+    .article-container h3,
+    h4 {
         text-align: left;
     }
 
@@ -262,12 +273,13 @@
         grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
         padding: 10px 10px;
         list-style: none;
-    } 
+    }
 
     .cards img {
         width: 100%;
         height: auto;
         display: block;
+        border: 1px solid #005377;
     }
 
     .cards section {
@@ -277,52 +289,45 @@
         box-shadow: 0 0 25px #005377;
     }
 
-    .cards h2 {
+    .cards section h2 {
+        text-align: center;
         font-family: Roboto Slab, serif;
         font-weight: bold;
         font-size: 2em;
-        text-align: center;
         text-shadow: 3px 3px 1.5px #BBDEF0;
         margin-top: -55px;
         color: #005377;
     }
 
-    .cards p:nth-child(2) {
-        flex-wrap: wrap;
-        font-family: Raleway, sans-serif;
-        font-style: italic;
-        text-align: center;
-        font-weight: bold;
-        color: #005377;
-        margin-top: -18px;
-        margin-bottom: 30px;
-    }
-
-    .cards p {
-        font-family: Raleway, sans-serif;
-        text-align: center;
-        color: #005377;
-        margin-top: -7px;
-    }
-
-    .cards section div {
+    .cards :nth-child(1) p {
+        margin-right: 90px;
         margin-left: 90px;
     }
 
-    .cards section:nth-child(even) div {
-        margin-right: 95px;
+    .cards :nth-child(2) p {
+        margin-right: 80px;
+        margin-left: 70px;
     }
 
-    .cards section:nth-child(5) div {
-        margin-right: 95px;
+    .cards :nth-child(2) h2 {
+        margin-right: 30px;
+        margin-left: 20px;
     }
 
-    .cards section:nth-child(7) div h2 {
-        margin-right: 90px;
+    .cards :nth-child(3) p {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    .cards section:nth-child(7) div p {
-        margin-right: 75px;
+    .cards :nth-child(3) h2 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .cards section p {
+        font-family: Raleway, sans-serif;
+        color: #005377;
+        margin-top: -7px;
     }
 
     .contact-grid {
@@ -337,7 +342,7 @@
         padding: 10px;
     }
 
-    .contact-grid > div {
+    .contact-grid>div {
         background-color: #BBDEF0;
     }
 
@@ -454,7 +459,7 @@
         margin: 5px;
     }
 
-    .wrapper > div {
+    .wrapper>div {
         background-color: #BBDEF0;
         padding: 1.125em;
         margin: auto;
