@@ -1,0 +1,483 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    header {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        padding: 15px 0 15px 5px;
+        float: none;
+        display: flex;
+    }
+
+    header img {
+        margin-left: -35px;
+    }
+
+    .headings {
+        margin-right: 120px;
+    }
+
+    .quote {
+        font-style: italic;
+        letter-spacing: 1pt;
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        margin-left: 30px;
+        font-size: .9rem;
+        letter-spacing: 1.5pt;
+    }
+
+    nav {
+        float: right;
+        background-color: #0291C9;
+        margin-right: -40px;
+    }
+
+    .nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    .nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+        border-radius: 25px;
+    }
+
+    body > #pancakes {
+        height: 60px;
+        text-align: center;
+        background-color: #F1D302;
+        color: #005377;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    body {
+        background-color: #E5E5E5;
+    }
+
+    main h1 {
+        color: var(--paragraph-color-on-color);
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .herodiv {
+        margin: auto;
+        position: relative;
+        width: 100%;
+        height: 475px;
+    }
+
+    .hero-ph img {
+        height: 100%;
+    }
+
+    .cozumel1 {
+        position: absolute;
+        top: 35px;
+        left: 35px;
+        bottom: 72px;
+        background: radial-gradient(#9ECEE5, #9ECEE5);
+        border: 1px solid #00B7AB;
+        border-radius: 25px;
+        padding: .5rem;
+        box-shadow: 0 0 30px #9ECEE5;
+        opacity: 0.85;
+    }
+
+    .cozumel1 img {
+        border-radius: 25px;
+    }
+
+    .weathersummary {
+        position: absolute;
+        top: 105px;
+        margin-left: 50%;
+        left: -118px;
+        bottom: 130px;
+        background: radial-gradient(#9ECEE5, #9ECEE5);
+        border: 1px solid #00B7AB;
+        border-radius: 25px;
+        padding: .5rem;
+        box-shadow: 0 0 30px #9ECEE5;
+        color:black;
+        font-weight: bold;
+        font-family: Raleway, sans-serif;
+        opacity: 0.75;
+    }
+
+    .weathersummary h2 {
+        text-align: center;
+        font-weight: bold;
+        color:black;
+        margin: 10px 0 0 0;
+    }
+
+    hr {
+        border: 2px solid #0291C9;
+        opacity: 1;
+    }
+
+    .cozumel2 {
+        position: absolute;
+        top: 35px;
+        right: 35px;
+        bottom: 72px;
+        background: radial-gradient(#9ECEE5, #9ECEE5);
+        border: 1px solid #00B7AB;
+        border-radius: 25px;
+        padding: .5rem;
+        box-shadow: 0 0 30px #9ECEE5;
+        opacity: 0.85;
+    }
+
+    .cozumel2 img {
+        border-radius: 25px;
+    }
+
+    /* Grid */
+    .fivedaygrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        max-width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .fivedaygrid {
+        border-right: 1px solid #005377;
+    }
+
+    .grid-col {
+        border-bottom: 1px solid #005377;
+        border-left: 1px solid black;
+        text-align: center;
+    }
+
+    .grid-col {
+        background-color: ghostwhite;
+    }
+
+    .grid-col img {
+        margin-top: 5px;
+    }
+
+    #dayofweek1 {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #005377;
+        text-align: center;
+    }
+
+    #dayofweek1 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast1 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek2 {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #005377;
+        text-align: center;
+    }
+
+    #dayofweek2 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast2 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek3 {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #005377;
+        text-align: center;
+    }
+
+    #dayofweek3 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast3 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek4 {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #005377;
+        text-align: center;
+    }
+
+    #dayofweek4 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast4 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #dayofweek5 {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #005377;
+        text-align: center;
+    }
+
+    #dayofweek5 {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #005377;
+        color: white;
+    }
+
+    #forecast5 {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    h3,
+    h4 {
+        text-align: center;
+        color: #0291C9;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+    }
+
+    .cards {
+        display: grid;
+        max-width: 1225px;
+        margin-top: -100px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+        padding: 10px 10px;
+        list-style: none;
+    }
+
+    .cards img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 1px solid #005377;
+    }
+
+    .cards section {
+        background-color: #00AFB5;
+        padding: 1em;
+        margin: .25em;
+        box-shadow: 0 0 25px #005377;
+    }
+
+    .cards section h2 {
+        text-align: center;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        font-size: 2em;
+        text-shadow: 3px 3px 1.5px #BBDEF0;
+        margin-top: -55px;
+        color: #0291C9;
+    }
+
+    .cards :nth-child(1) p {
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+    .cards :nth-child(2) p {
+        margin-right: 80px;
+        margin-left: 70px;
+    }
+
+    .cards :nth-child(2) h2 {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .cards :nth-child(3) p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .cards :nth-child(3) h2 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .cards section p {
+        font-family: Raleway, sans-serif;
+        color: #0291C9;
+        margin-top: -7px;
+    }
+
+    .contact-grid {
+        display: grid;
+        margin: 20px auto;
+        width: 980px;
+        height: 380px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        background-color: #BBDEF0;
+        padding: 10px;
+    }
+
+    .contact-grid>div {
+        background-color: #BBDEF0;
+    }
+
+    .contact-grid p {
+        color: #0291C9;
+        font-family: Raleway, sans-serif;
+        font-size: 15px;
+    }
+
+    .griditem1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+
+    .griditem1 img {
+        width: 75%;
+        height: auto;
+        margin: 23px 118px;
+    }
+
+    .griditem2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .griditem3 {
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .griditem4 {
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .griditem5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .griditem6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .social {
+        margin: 0px 181px;
+    }
+
+    .social img {
+        border-radius: 20px 20px 20px 20px;
+        margin: 5px -12px 5px 5px;
+    }
+
+    footer {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 1020px;
+        margin: auto;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        display: block;
+        margin: 5px;
+    }
+
+    .wrapper>div {
+        background-color: #BBDEF0;
+        padding: 1.125em;
+        margin: auto;
+        max-width: 1020px;
+    }
+}
+
+/*end large */

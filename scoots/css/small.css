@@ -1,0 +1,490 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #E5E5E5;
+  --secondary-color: #0291C9;
+  --accent1-color: #9ECEE5;
+  --accent2-color: #00B7AB;
+  --accent3-color: #FEF64D;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Roboto Slab", serif;
+  --paragraph-font: Raleway, Helvetica, sans-serif;
+
+  /* colors below are for the website color scheme */
+  --headline-color-on-white: black;
+  /* headlines on a white background */
+  --headline-color-on-color: #00B7AB;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: black;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: #E5E5E5;
+  /* paragraph text on a colored background */
+  --text-background-color: #0291C9;
+  --nav-link-color:#9ECEE5;;
+  --nav-background-color: #9ECEE5;
+  --nav-hover-link-color: #FEF64D;
+  --nav-hover-background-color: #00B7AB;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.herodiv {
+  margin: auto;
+  width: 95%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.hero-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+body > #pancakes {
+  height: 60px;
+  text-align: center;
+  background-color: #9ECEE5;
+  color: #0291C9;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+/* Grid */
+.fivedaygrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.fivedaygrid {
+  border-right: 1px solid #0291C9;
+}
+
+.grid-col {
+  border-bottom: 1px solid #0291C9;
+  border-left: 1px solid black;
+  text-align: center;
+}
+
+.grid-col {
+  background-color: ghostwhite;
+}
+
+.grid-col img {
+  margin-top: 5px;
+}
+
+#dayofweek1 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek1 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast1 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek2 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek2 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast2 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek3 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek3 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast3 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek4 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek4 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast4 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek5 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek5 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast5 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-family: "Roboto Slab", serif;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #0291C9;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 53, 119, 1);
+  color: #FEF64D;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+main > h1 {
+  margin: 5px 0 5px 10px;
+  color: #0291C9;
+}
+
+.weathersummary {
+  top: 25px;
+  left: 25px;
+  bottom: 25px;
+  padding: .5rem;
+  color: #0291C9;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+}
+
+.fivedaytext>h3 {
+  text-align: center;
+  color: #0291C9;
+  font-family: Roboto Slab, serif;
+  margin: 25px 0 10px 0;
+}
+
+.forecast-ph img {
+  margin: auto;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #0291C9;
+}
+
+.article-container {
+  border: 1px solid #0291C9;
+  margin: 10px 0 10px 0;
+  background-color: #9ECEE5;
+  float: none;
+  padding: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h3,
+h4 {
+  text-align: center;
+  color: #0291C9;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+}
+
+.article-img img {
+  padding: 7px 7px 7px 7px;
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.article-container h4 {
+  margin: -12px 0 20px 0;
+}
+
+.article-container h3,
+h4 {
+  text-align: left;
+}
+
+.article-container p {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  color: #0291C9;
+}
+
+.cards {
+  color: #0291C9;
+  font-size: .8em;
+  margin: auto 0;
+  display: grid;
+  grid-gap: 1.5em;
+}
+
+.cards section {
+  background-color: #00B7AB;
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+  box-shadow: 0 0 25px #0291C9;
+  font-weight: bold;
+  width: 70%;
+}
+
+.cards h2 {
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: none;
+  color: #0291C9;
+}
+
+.cards p:nth-child(2) {
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  color: #0291C9;
+}
+
+.cards img {
+  width: 200px;
+  padding: 0;
+  border: 1px solid #0291C9;
+}
+
+.cards p {
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: -7px;
+  font-weight: bold;
+  color: #0291C9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper > div {
+  border-radius: 5px;
+  background-color: #E5E5E5;
+  padding: 1em;
+  margin: 5px;
+}
+
+.wrapper {
+  display: block;
+
+}
+
+footer {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  padding: 20px 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.griditem1 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.griditem1 img {
+  width: 40%;
+  height: auto;
+}
+
+.griditem3 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0 5px 0 0;
+}
+
+.griditem4 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0 5px 0 0;
+}
+
+.griditem5 {
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0 5px 0 0;
+}
+
+.contact-grid > .griditem3 {
+  background-color: #E5E5E5;
+}
+
+.contact-grid > .griditem4 {
+  background-color: #E5E5E5;
+}
+
+.contact-grid > .griditem5 {
+  background-color: #E5E5E5;
+}
+
+.contact-grid p {
+  color: #0291C9;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
