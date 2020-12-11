@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="~Scoots website project for WDD230 class - 2020">
+    <meta name="author" content="Jeremy Greene">
+
+    <title>Weather The Store 24 Weather Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- STYLE SHEETS -->
+    <link href="rescss/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="rescss/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="rescss/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="rescss/large.css" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+
+    <header>
+        <picture>
+            <img src="images/sunscooter2.png" alt="website logo">
+        </picture>
+        <section class="headings">
+            <h1>~Scoots' Scoots</h1>
+            <div class="quote">Vroom! Vroom!</div>
+        </section>
+
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="https://jlgreene19.github.io/wdd230/lesson11/index.html"><b>Home</b></a></li>
+                <li><a href="https://jlgreene19.github.io/wdd230/lesson11/rentals.html"><b>Rentals</b></a></li>
+                <li class="active"><a
+                        href="https://jlgreene19.github.io/wdd230/lesson11/reservations.html"><b>Reservations</b></a>
+                </li>
+                <li><a href="https://jlgreene19.github.io/wdd230/lesson11/tours.html"><b>Tours</b></a></li>
+                <li><a href="https://jlgreene19.github.io/wdd230/lesson11/contact.html"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Make A Reservation Today!</h1>
+        <h2>Rental Information and Services:</h2>
+        <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid drivers license is required in hand at time of rental.</li>
+            <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is free of charge.</li>
+            <li>Reservations rate requires 24 hour prior notification.</li>
+            <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+            <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+            <li> Rentals may be returned to either location.</li>
+        </ul>
+        <form action="confirmation.html" method="get">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullname" required
+                        pattern="[a-zA-Z].{5,}"></label>
+                <label class="top">Email* <input type="email" name="email" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required pattern="[0-9]{7,10}"></label>
+                <label class="top">
+                    State or
+                    <br>
+                    Country* <input type="text" name="state" required pattern="[a-zA-Z]{2,}" minlength="2">
+                </label>
+                <label class="top">How Many?<input type="number" name="numpeople" pattern="[0-9]"></label>
+                <label class="top">Cruise Line:
+                    <br>
+                    (if applicable)
+                    <select name="region">
+                        <option selected disabled="disabled">Select Region ... &#9662;</option>
+                        <option value="cruise line">A-ROSA Cruises
+                        <option value="cruise line">Abercrombie and Kent
+                        <option value="cruise line">Adventure Smith Explorations
+                        <option value="cruise line">Afloat in France
+                        <option value="cruise line">AFC Vacations
+                        <option value="cruise line">Aida Cruises
+                        <option value="cruise line">Alaskan Dream Cruises
+                        <option value="cruise line">AmaWaterways
+                        <option value="cruise line">American Cruise Lines
+                        <option value="cruise line">American Queen Steamboat Company
+                        <option value="cruise line">Aqua Expeditions
+                        <option value="cruise line">Avalon Waterways
+                        <option value="cruise line">Azamara
+                        <option value="cruise line">Blount Small Ship Adventures
+                        <option value="cruise line">Blue Lagoon Cruises
+                        <option value="cruise line">Blue World Voyages
+                        <option value="cruise line">Bora Bora Cruises
+                        <option value="cruise line">Captain Cook Cruises
+                        <option value="cruise line">Carnival Cruise Line
+                        <option value="cruise line">Celebrity Cruises
+                        <option value="cruise line">Celestyal Cruises
+                        <option value="cruise line">Costa Cruises
+                        <option value="cruise line">CroisiEurope River Cruises
+                        <option value="cruise line">Crystal River Cruises
+                        <option value="cruise line">Crystal Cruises
+                        <option value="cruise line">Cunard Line
+                        <option value="cruise line">Disney Cruise Line
+                        <option value="cruise line">Ecoventura
+                        <option value="cruise line">Emerald Waterways
+                        <option value="cruise line">European Waterways
+                        <option value="cruise line">Fantasy Cruises
+                        <option value="cruise line">Farah Nile Cruises
+                        <option value="cruise line">Festiva Sailing Vacations
+                        <option value="cruise line">France Cruises
+                        <option value="cruise line">Fred. Olsen Cruise Lines
+                        <option value="cruise line">French America Line
+                        <option value="cruise line">French Country Waterways
+                        <option value="cruise line">G Adventures
+                        <option value="cruise line">Great Lakes Cruise Company
+                        <option value="cruise line">Haimark, Ltd., Asia
+                        <option value="cruise line">Haimark Line-Luxury Coastal Expeditions
+                        <option value="cruise line">Hapag Lloyd Cruises
+                        <option value="cruise line">Hebridean Island Cruises
+                        <option value="cruise line">Holland America Line (HAL)
+                        <option value="cruise line">Hurtigruten
+                        <option value="cruise line">Imperial River Cruises
+                        <option value="cruise line">Island Windjammers
+                        <option value="cruise line">indblad Expeditions
+                        <option value="cruise line">Lueftner Cruises-(Amadeus cruises)
+                        <option value="cruise line">Marella Cruises
+                        <option value="cruise line">MSC Cruises
+                        <option value="cruise line">North Star Cruises Australia
+                        <option value="cruise line">Norwegian Cruise Line (NCL)
+                        <option value="cruise line">Oceania Cruises
+                        <option value="cruise line">Paul Gauguin Cruises
+                        <option value="cruise line">Pearl Seas Cruises
+                        <option value="cruise line">P & O Cruises
+                        <option value="cruise line">P & O Cruises Australia
+                        <option value="cruise line">Pandaw River Cruises
+                        <option value="cruise line">Ponant
+                        <option value="cruise line">Poseidon Expeditions
+                        <option value="cruise line">President Cruises
+                        <option value="cruise line">Princess Cruises
+                        <option value="cruise line">Regent Seven Seas Cruises
+                        <option value="cruise line">Ritz-Carlton Yacht Collection
+                        <option value="cruise line">Riviera River Cruises
+                        <option value="cruise line">Royal Caribbean International (RCI)
+                        <option value="cruise line">Saga Holidays, Ltd.
+                        <option value="cruise line">Sanctuary Retreats
+                        <option value="cruise line">Scenic Cruises
+                        <option value="cruise line">Seabourn
+                        <option value="cruise line">Sea Cloud Cruises
+                        <option value="cruise line">SeaDream Yacht Club
+                        <option value="cruise line">Semester at Sea
+                        <option value="cruise line">Silversea Cruises
+                        <option value="cruise line">Sonesta Cruise Collection
+                        <option value="cruise line">St. Lawrence Cruise Lines
+                        <option value="cruise line">Star Clippers
+                        <option value="cruise line">Star Cruises
+                        <option value="cruise line">Tauck River Cruising
+                        <option value="cruise line">Tauck Small Ship Cruising
+                        <option value="cruise line">The Barge Company
+                        <option value="cruise line">Un-Cruise Adventures
+                        <option value="cruise line">Uniworld Boutique River Cruise Collection
+                        <option value="cruise line">Value World Tours, Inc.
+                        <option value="cruise line">Variety Cruises
+                        <option value="cruise line">Viking Ocean Cruises
+                        <option value="cruise line">Viking River Cruises
+                        <option value="cruise line">Virgin Voyages
+                        <option value="cruise line">Voyages to Antiquity
+                        <option value="cruise line">Windstar Cruises
+                        <option value="cruise line">World Quest Cruises
+                        <option value="cruise line">YMT Vacations
+                        <option value="cruise line">Your Cuba Cruise
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rental Information</legend>
+                <div class="form-checkbox form-checkbox-inline">
+                    <div class="form-checkbox-legend">Choose your vehicles:</div>
+                    <div class="form-checkbox-label">
+                        Honda Motor Scooters:
+                    </div>
+                    <label class="form-checkbox-label">
+                        <input name="metro" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>Honda Metropolitan (49cc) - 1 person</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input name="dio" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>Honda Dio (110cc) - 2 person</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input name="pcx" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>Honda PCX150 (149cc) - 2 person</span>
+                    </label>
+                </div>
+
+                <div class="form-checkbox form-checkbox-inline">
+                    <div class="form-checkbox-legend"></div>
+                    <div class="form-checkbox-label">
+                        ATV Side-by-Side:
+                    </div>
+                    <label class="form-checkbox-label">
+                        <input name="pioneer" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>Honda Pioneer 1000</span>
+                    </label>
+                </div>
+
+                <div class="form-checkbox form-checkbox-inline">
+                    <div class="form-checkbox-legend"></div>
+                    <div class="form-checkbox-label">
+                        Jeep Rentals:
+                    </div>
+                    <label class="form-checkbox-label">
+                        <input name="fourdr" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>4-door Jeep Wrangler - manual with A/C - 5 people max</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                        <input name="twodoor" class="form-checkbox-field" type="checkbox" />
+                        <i class="form-checkbox-button"></i>
+                        <span>P2-door Jeep Wrangler - open air - manual - 4 people max</span>
+                    </label>
+                </div>
+
+                <label class="sbs">Rental Date: <input type="date" name="date"></label>
+
+                <div class="choosedates">Choose dates:</div>
+                    <br>
+                <label class="dates">Start date:
+                <input type="date" id="start" name="trip-start"
+                        value="2020-12-21"
+                        min="2020-12-21" max="2020-12-31">
+                </label>
+                <br>
+                <label class="dates">End date:&nbsp
+                <input type="date" id="start" name="trip-end"
+                        value="2020-12-22"
+                        min="2020-12-22" max="2021-12-21">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Accommodations/Comments</legend>
+                <textarea rows="12" cols="50"
+                    name="comment">Example: Need and location of drop-off request...</textarea>
+
+            </fieldset>
+            <div class="buttonHolder">
+                <input type="submit" value="Confirm Reservation!" class="submitBtn2">
+            </div>
+
+        </form>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        &copy; <span id="copyright"></span> | Jeremy Greene | Washington | <a href="https://www.byui.edu/online"
+            target="_blank">BYU-Idaho Online Learning</a> | Last Modified: <span id="lastmodified"></span>
+    </footer>
+
+    <script src="js/pancakes.js"></script>
+    <script src="js/currentday.js"></script>
+    <script src="js/copyright.js"></script>
+    <script src="js/hamburger.js"></script>
+    <!-- <script src="js/windchill.js"></script> -->
+    <script src="js/weatherinfo.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <!-- <script src="js/scooters.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+
+</body>
+
+</html>

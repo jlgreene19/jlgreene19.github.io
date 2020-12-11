@@ -16,13 +16,12 @@
     }
 
     body {
-        background-color: #9ECEE5;
+        background-color: #BBDEF0;
     }
 
     main h1 {
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+
     }
 
     .headings h1 {
@@ -47,7 +46,6 @@
         background-repeat: no-repeat;
         height: auto;
         width: 100%;
-        border-radius: 0;
     }
 
     .weathersummary {
@@ -188,7 +186,7 @@
         box-sizing: border-box;
     }
 
-    .wrapper > div {
+    .wrapper>div {
         border-radius: 5px;
         background-color: #BBDEF0;
         padding: 1em;
@@ -199,7 +197,7 @@
         display: block;
     }
 
-    .wrapper > div {
+    .wrapper>div {
         max-width: 780px;
     }
 
