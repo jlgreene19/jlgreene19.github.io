@@ -1,10 +1,10 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
+const apiURL4 = 'http://api.openweathermap.org/data/2.5/onecall?lat=20.5083&lon=-86.9458&exclude=minutely,hourly&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
 
-fetch(apiURL)
+fetch(apiURL4)
   .then((response) => response.json())
   .then((jsObject) => {
 
-    const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+    const forecast = jsObject.list(x => x.dt_txt);
     /* example of viewing filtered results in the console:
     console.log(forecast); */
     

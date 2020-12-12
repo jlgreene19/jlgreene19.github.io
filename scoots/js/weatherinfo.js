@@ -1,4 +1,4 @@
-const apiURLcoz = 'https://api.openweathermap.org/data/2.5/onecall?lat=20.627399&lon=-87.079872&exclude=minutely,hourly&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
+const apiURLcoz = 'https://api.openweathermap.org/data/2.5/onecall?lat=20.5083&lon=-86.9458&exclude=minutely,hourly&units=imperial&APPID=014fa4af92532fb406ce8595701f9194';
 
 function windChill(temp, wSpeed) {
   if (temp <= 50 && wSpeed >= 3) {
