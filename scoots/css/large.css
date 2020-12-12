@@ -107,17 +107,12 @@
         height: 100%;
     }
 
-
-    /*********** RENTALS.HTML CSS START ***********/
-
-    
-
-    /*********** RENTALS.HTML CSS END ***********/
-
     /*********** TOURS.HTML CSS START ***********/
 
     .features {
-        text-align: center;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .features h1 {
@@ -129,25 +124,25 @@
         border: 4px; border-style: ridge; border-color: #00B7AB;
         width: fit-content;
         padding: 10px;
+        margin-bottom: 75px;
         border-radius: 10px;
         background-color: #FEF64D;
     }
 
     .features p {
         width: 60%;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
-        display: inline-block;
+        display: block;
     }
 
     .features img {
-        display: inline-block;
-        max-width: 60%;
-    }
-
-    .features p {
+        margin-left: auto;
         width: 60%;
-        text-align: left;
-        display: inline-block;
+        margin-right: auto;
+        text-align: center;
+        display: block;
     }
 
     /*********** TOURS.HTML CSS END ***********/
@@ -281,6 +276,7 @@
     .cards section ul {
         text-align: left;
         font-family: Raleway, sans-serif;
+        font-size: bold;
         color: #0291C9;
         font-size: .9rem;
         padding-top: 0;

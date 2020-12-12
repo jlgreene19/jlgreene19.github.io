@@ -313,6 +313,7 @@
         padding: 30px;
         color: #0291C9;
         font-weight: bold;
+        border-radius: 25px;
     }
         
     .fancy:before, .block:after {
@@ -326,6 +327,7 @@
         height: calc(100% + 4px);
         z-index: -1;
         animation: steam 20s linear infinite;
+        border-radius: 25px;
     }
         
         @keyframes steam {

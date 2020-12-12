@@ -328,6 +328,26 @@
         line-height: 20px;
         font-size: 18px;
     }
+
+    form input.submitBtn2 {
+        border: none;
+        background-color: #FEF64D;
+        font-weight: bold;
+        font-size: 1.75em;
+        color: #00B7AB;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 5rem 2%;
+        width: 96%;
+        max-width: 20rem;
+        height: 2.25em;
+        border: 2px dashed #00B7AB;
+        margin-top: 10px;
+    }
+
+    .buttonHolder {
+        text-align: center;
+    }
     
         /*----------- RENTALS.HTML CSS END -------------*/
 }
