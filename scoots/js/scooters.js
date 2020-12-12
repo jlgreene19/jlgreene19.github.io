@@ -8,7 +8,7 @@ fetch(requestURLscoot)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const scooters = jsonObject['scooters'];
     for (let i = 0; i < scooters.length; i++ ) {
-      if (scooters[i].name == "~Honda Metro Scooter" ||scooters[i].name == "~Honda Dio Scooter" || towns[i].name == "Fish Haven"){
+      if (scooters[i].name == "~Honda Metro Scooter" || scooters[i].name == "~Honda Dio Scooter" || scooters[i].name == "~Honda PCX150 Scooter" || scooters[i].name == "Honda Pioneer ATV" || scooters[i].name == "Jeep Wrangler - 4 door with a/c" || scooters[i].name == "Jeep Wrangler - 2 door") {
 
         let card = document.createElement('section');
         let info = document.createElement('div');
@@ -33,10 +33,6 @@ fetch(requestURLscoot)
 
         card.appendChild(info);
         /* card.appendChild(h2);
-        card.appendChild(motto);
-        card.appendChild(yearFounded);
-        card.appendChild(currentPopulation);
-        card.appendChild(averageRainfall);
         card.appendChild(image); */
         card.appendChild(image);
 

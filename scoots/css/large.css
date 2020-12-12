@@ -782,10 +782,10 @@
         grid-row-end: 3;
     }
 
-    /*----------- RESERVATIONS FORM END -------------*/
+    /*----------- RESERVATIONS FORM CSS END -------------*/
 }
 
-    /*----------- CONTACT FORM PAGE FORMATTING START -------------*/
+    /*----------- CONTACT.HTML FORM PAGE START -------------*/
 
 main h1 {
     margin: 30px auto;
@@ -863,6 +863,27 @@ form input.submitBtn3 {
     border: 2px dashed #00B7AB;
 }
 
-    /*----------- CONTACT FORM END -------------*/
+    /*----------- CONTACT.HTML FORM CSS END -------------*/
+
+    /*----------- RESOURCES.HTML CSS START -------------*/
+
+   .resources h3 {
+        color: #0291C9;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .resources a {
+        display: block;
+        color: blue;
+        font-size: 1rem;
+    }
+
+    .resources :nth-child(12) a {
+        margin-bottom: 60px;
+    }
+
+    /*----------- RESOURCES.HTML CSS END -------------*/
 
 /*end large */
