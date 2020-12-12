@@ -218,78 +218,25 @@
     }
 
     .cards {
-        display: flex;
-        max-width: 1225px;
+        display: grid;
+        max-width: 1480px;
         margin-top: -100px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 20px;
-        grid-gap: 2em;
-        grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-        padding: 10px 10px;
+        grid-gap: .25em;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px 5px;
         list-style: none;
         border-radius: 25px;
     }
 
-    .cards img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border: 1px solid #005377;
-    }
-
-    .cards section {
-        background-color: #00AFB5;
-        padding: 1em;
-        margin: .25em;
-        box-shadow: 0 0 25px #005377;
-    }
-
-    .cards section h2 {
-        text-align: center;
-        font-family: Roboto Slab, serif;
-        font-weight: bold;
-        font-size: 2em;
-        text-shadow: 3px 3px 1.5px #BBDEF0;
-        margin-top: -55px;
-        color: #005377;
-    }
-
-    .cards :nth-child(1) p {
-        margin-right: 90px;
-        margin-left: 90px;
-    }
-
-    .cards :nth-child(2) p {
-        margin-right: 80px;
-        margin-left: 70px;
-    }
-
-    .cards :nth-child(2) h2 {
-        margin-right: 30px;
-        margin-left: 20px;
-    }
-
-    .cards :nth-child(3) p {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .cards :nth-child(3) h2 {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .cards section p {
-        font-family: Raleway, sans-serif;
-        color: #005377;
-        margin-top: -7px;
-    }
-
     .cards section {
         text-align: center;
+        display: grid;
         background-color: #9ECEE5;
         padding: 1em;
+        height: 500px;
         margin: .25em;
         box-shadow: 0 0 25px #FEF64D;
         border-radius: 25px;
@@ -302,7 +249,8 @@
         font-weight: bold;
         font-size: 2em;
         text-shadow: 3px 3px 1.5px #E5E5E5;
-        margin-top: -55px;
+        margin-top: -40px;
+        margin-bottom: 20px;
         color: #0291C9;
     }
 
@@ -310,6 +258,23 @@
         width: 100%;
         height: auto;
         display: block;
+        margin-top: 50px;
+        border: 1px solid transparent;
+    }
+
+    .cards :nth-child(2) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
+    }
+
+    .cards :nth-child(3) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 25px;
         border: 1px solid transparent;
     }
 
@@ -318,7 +283,8 @@
         font-family: Raleway, sans-serif;
         color: #0291C9;
         font-size: .9rem;
-        padding-top: 45px;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     /*    
@@ -328,6 +294,10 @@
         margin-top: -7px;
     }
 */
+
+    .threedaytext h3 {
+        margin-top: 30px;
+    }
 
     #dayofweek1 {
         display: block;

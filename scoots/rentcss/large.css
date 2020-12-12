@@ -89,10 +89,17 @@
     }
 
     main h1 {
+        margin: 30px auto;
         color: var(--headline-color-on-color);
         text-align: center;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        font-size: 2.5rem;
+        color: #00B7AB;
+        border: 4px; border-style: ridge; border-color: #00B7AB;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #FEF64D;
+        margin-bottom: 120px;
     }
 
     .herodiv {
@@ -180,108 +187,69 @@
 
     /***************** TABLE END *****************/
 
-    .cards {
-        display: flex;
-        max-width: 1225px;
+    .scooters {
+        display: grid;
+        max-width: 1480px;
         margin-top: -100px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 20px;
-        grid-gap: 2em;
-        grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
         padding: 10px 10px;
         list-style: none;
         border-radius: 25px;
     }
 
-    .cards img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border: 1px solid #005377;
-    }
-
-    .cards section {
-        background-color: #00AFB5;
-        padding: 1em;
-        margin: .25em;
-        box-shadow: 0 0 25px #005377;
-    }
-
-    .cards section h2 {
-        text-align: center;
-        font-family: Roboto Slab, serif;
-        font-weight: bold;
-        font-size: 2em;
-        text-shadow: 3px 3px 1.5px #BBDEF0;
-        margin-top: -55px;
-        color: #005377;
-    }
-
-    .cards :nth-child(1) p {
-        margin-right: 90px;
-        margin-left: 90px;
-    }
-
-    .cards :nth-child(2) p {
-        margin-right: 80px;
-        margin-left: 70px;
-    }
-
-    .cards :nth-child(2) h2 {
-        margin-right: 30px;
-        margin-left: 20px;
-    }
-
-    .cards :nth-child(3) p {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .cards :nth-child(3) h2 {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .cards section p {
+    .scooters section p {
         font-family: Raleway, sans-serif;
         color: #005377;
         margin-top: -7px;
     }
 
-    .cards section {
+    .scooters section {
         text-align: center;
         background-color: #9ECEE5;
         padding: 1em;
+        height: 550px;
         margin: .25em;
         box-shadow: 0 0 25px #FEF64D;
         border-radius: 25px;
         border: 1px solid #00B7AB;
     }
 
-    .cards section h2 {
+    .scooters section h2 {
         text-align: center;
         font-family: Roboto Slab, serif;
         font-weight: bold;
         font-size: 2em;
         text-shadow: 3px 3px 1.5px #E5E5E5;
-        margin-top: -55px;
+        margin-top: 0;
         color: #0291C9;
     }
 
-    .cards img {
+    .scooters img {
         width: 100%;
         height: auto;
         display: block;
+        margin-top: 80px;
         border: 1px solid transparent;
     }
 
-    .cards section ul {
-        text-align: left;
-        font-family: Raleway, sans-serif;
-        color: #0291C9;
-        font-size: .9rem;
-        padding-top: 45px;
+    .scooters :nth-child(3) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
+    }
+
+    .scooters :nth-child(5) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
     }
 
     /*    
@@ -326,6 +294,42 @@
         margin: auto;
         max-width: 1020px;
     }
+
+    /*----------- RENTALS.HTML CSS START -------------*/
+
+    .scootertable {
+        border-collapse: collapse;
+        height: 325px;
+        width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 125px;
+    }
+        
+    h1, th, td {
+        font-family: Ubuntu, sans-serif;
+    }
+        
+    thead tr th {
+        line-height: 40px;
+        font-size: 24px;
+    }
+
+    .scootertable tbody:nth-child(2) th {
+        font-size: 1.25rem;
+    }
+        
+    .scootertable, th, td {
+        border: 3px ridge #0291C9;
+    }
+        
+    .scootertable tbody tr {
+        text-align: center;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    
+        /*----------- RENTALS.HTML CSS END -------------*/
 }
 
 /*end large */
