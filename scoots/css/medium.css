@@ -2,6 +2,14 @@
 
 @media only screen and (min-width: 40em) {
 
+    header {
+        color: var(--paragraph-color-on-color);
+        background-color: var(--text-background-color);
+        padding: 15px 0 15px 5px;
+        float: none;
+        display: flex;
+    }
+
     header img {
         margin-left: -35px;
     }
@@ -19,10 +27,8 @@
         color: #9ECEE5;
         background-color: var(--text-background-color);
         margin-left: 30px;
-        font-size: 1rem;
+        font-size: .9rem;
         letter-spacing: 1.5pt;
-        letter-spacing: 1.5pt;
-        margin-left: 17px;
     }
 
     .primaryNav {
@@ -169,6 +175,65 @@
     }
 
     /*********** TOURS.HTML CSS END ***********/
+
+    /*********** RESERVATIONS.HTML CSS START ***********/
+
+    form {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+
+    form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #0291C9;
+        border-radius: 10px;
+        padding: .5rem 2%;
+    }
+
+    form legend {
+        color: #003577;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+        font-size: 1.25rem;
+    }
+
+    form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #003577;
+        font-size: 1rem;
+    }
+
+    form label.top input,
+    form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding: .5rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+
+    form label.top input:required {
+        border-left: red solid 6px;
+    }
+
+    form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+
+    textarea {
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    /*********** RESERVATIONS.HTML CSS START ***********/
 
     .weathersummary {
         top: 25px;
@@ -395,7 +460,7 @@ header img {
 }
 
 .headings h1 {
-    color: #BBDEF0;
+    color: #9ECEE5;
     font-size: 1.6rem;
     margin: 0 0 0 17px;
 }

@@ -187,71 +187,6 @@
 
     /***************** TABLE END *****************/
 
-    .scooters {
-        display: grid;
-        max-width: 1480px;
-        margin-top: -100px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
-        grid-gap: 1em;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 10px 10px;
-        list-style: none;
-        border-radius: 25px;
-    }
-
-    .scooters section p {
-        font-family: Raleway, sans-serif;
-        color: #005377;
-        margin-top: -7px;
-    }
-
-    .scooters section {
-        text-align: center;
-        background-color: #9ECEE5;
-        padding: 1em;
-        height: 550px;
-        margin: .25em;
-        box-shadow: 0 0 25px #FEF64D;
-        border-radius: 25px;
-        border: 1px solid #00B7AB;
-    }
-
-    .scooters section h2 {
-        text-align: center;
-        font-family: Roboto Slab, serif;
-        font-weight: bold;
-        font-size: 2em;
-        text-shadow: 3px 3px 1.5px #E5E5E5;
-        margin-top: 0;
-        color: #0291C9;
-    }
-
-    .scooters img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 80px;
-        border: 1px solid transparent;
-    }
-
-    .scooters :nth-child(3) img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 80px;
-        border: 1px solid transparent;
-    }
-
-    .scooters :nth-child(5) img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 80px;
-        border: 1px solid transparent;
-    }
-
     /*    
         .cards section p {
         font-family: Raleway, sans-serif;
@@ -347,6 +282,71 @@
 
     .buttonHolder {
         text-align: center;
+    }
+
+    .scooters {
+        display: grid;
+        max-width: 1480px;
+        margin-top: -100px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px 10px;
+        list-style: none;
+        border-radius: 25px;
+    }
+
+    .scooters section p {
+        font-family: Raleway, sans-serif;
+        color: #005377;
+        margin-top: -7px;
+    }
+
+    .scooters section {
+        text-align: center;
+        background-color: #9ECEE5;
+        padding: 1em;
+        height: 550px;
+        margin: .25em;
+        box-shadow: 0 0 25px #FEF64D;
+        border-radius: 25px;
+        border: 1px solid #00B7AB;
+    }
+
+    .scooters section h2 {
+        text-align: center;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        font-size: 2em;
+        text-shadow: 3px 3px 1.5px #E5E5E5;
+        margin-top: 0;
+        color: #0291C9;
+    }
+
+    .scooters img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
+    }
+
+    .scooters :nth-child(3) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
+    }
+
+    .scooters :nth-child(5) img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border: 1px solid transparent;
     }
     
         /*----------- RENTALS.HTML CSS END -------------*/

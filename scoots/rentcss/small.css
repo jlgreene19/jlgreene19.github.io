@@ -39,6 +39,10 @@ html {
   box-sizing: border-box;
 }
 
+.headings {
+  margin-right: 6px;
+}
+
 header {
   width: 100%;
   overflow: hidden;
@@ -47,8 +51,47 @@ header {
   background-color: var(--text-background-color);
 }
 
+.quote {
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: #9ECEE5;
+  background-color: var(--text-background-color);
+  margin-left: 30px;
+  font-size: .75rem;
+  letter-spacing: 1.5pt;
+  letter-spacing: 1.5pt;
+  margin-left: 17px;
+}
+
+.primaryNav {
+  color: #9ECEE5;
+}
+
+nav {
+  background-color: #0291C9;
+}
+
+a:link,
+a:visited {
+  color: #9ECEE5;
+}
+
 body {
   background-color: #E5E5E5;
+}
+
+main h1 {
+  margin: 30px auto;
+  color: var(--headline-color-on-color);
+  text-align: center;
+  font-size: 2rem;
+  color: #00B7AB;
+  border: 4px; border-style: ridge; border-color: #00B7AB;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FEF64D;
+  margin-bottom: 80px;
 }
 
 .herodiv {
@@ -66,15 +109,197 @@ body {
   border-radius: 0;
 }
 
-body > #pancakes {
-  height: 60px;
-  text-align: center;
-  background-color: #9ECEE5;
-  color: #0291C9;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 60px;
+/***************** TABLE START *****************/
+
+    /* 
+    table {
+        box-shadow : 10px 10px 15px #628ca6;
+    }
+    */
+
+  table {
+      border-collapse: collapse;
+      height: 325px;
+      width: 725px;
+      margin-left: 25px;
+  }
+  
+  h1, th, td {
+      font-family: Ubuntu, sans-serif;
+  }
+  
+  thead tr th {
+      line-height: 30px;
+      font-size: 20px;
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+    }
+  
+  thead tr:nth-child(1) {
+      background-color:#0291C9;
+      line-height: 30px;
+      color: white;
+  }
+  
+  tbody {
+      text-align: center;
+      line-height: 30px;
+      font-size: 18px;
+  }
+  
+  tbody tr th {
+      background-color:#9ECEE5;
+      color: #0291C9;
+
+  }
+  
+  td[colspan="2"] {
+      text-align: center;
+  }
+  
+  tbody tr {
+      background: #00B7AB;
+      color: #E5E5E5;
+  }
+  
+  .headings th {
+      background-color: #9ECEE5;
+      color: white;
+      line-height: 30px;
+      font-size: 20px;
+  }
+  
+  tfoot th {
+      background-color: #9ECEE5;
+      font-size: 11px;
+  }
+  
+  tfoot th {
+      line-height: 28px;
+  }
+
+  /***************** TABLE END *****************/
+
+  /*----------- RENTALS.HTML CSS START -------------*/
+
+.scootertable {
+    border-collapse: collapse;
+    height: 325px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
 }
+    
+h1, th, td {
+    font-family: Ubuntu, sans-serif;
+}
+    
+thead tr th {
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.scootertable tbody:nth-child(2) th {
+    font-size: 1.25rem;
+}
+    
+.scootertable, th, td {
+    border: 3px ridge #0291C9;
+}
+    
+.scootertable tbody tr {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+form input.submitBtn2 {
+    border: none;
+    background-color: #FEF64D;
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #00B7AB;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 5rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    height: 2.25em;
+    border: 2px dashed #00B7AB;
+    margin-top: 10px;
+}
+
+.buttonHolder {
+    text-align: center;
+}
+
+.scooters {
+    display: grid;
+    max-width: 600px;
+    margin-top: -100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    grid-gap: 1em;
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+    list-style: none;
+    border-radius: 25px;
+}
+
+.scooters section p {
+    font-family: Raleway, sans-serif;
+    color: #005377;
+    margin-top: -7px;
+}
+
+.scooters section {
+    text-align: center;
+    background-color: #9ECEE5;
+    padding: 1em;
+    height: 100%;
+    margin: .25em;
+    box-shadow: 0 0 25px #FEF64D;
+    border-radius: 25px;
+    border: 1px solid #00B7AB;
+}
+
+.scooters section h2 {
+    text-align: center;
+    font-family: Roboto Slab, serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 3px 3px 1.5px #E5E5E5;
+    margin-top: 0;
+    color: #0291C9;
+}
+
+.scooters img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border: 1px solid transparent;
+}
+
+.scooters :nth-child(3) img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid transparent;
+}
+
+.scooters :nth-child(5) img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid transparent;
+}
+
+    /*----------- RENTALS.HTML CSS END -------------*/
 
 h1,
 h2,
@@ -270,11 +495,6 @@ nav ul.hide {
   display: none;
 }
 
-main > h1 {
-  margin: 5px 0 5px 10px;
-  color: #0291C9;
-}
-
 .weathersummary {
   top: 25px;
   left: 25px;
@@ -410,11 +630,10 @@ h4 {
 
 .wrapper {
   display: block;
-
 }
 
 footer {
-  color: var(--paragraph-color-on-color);
+  color: var(--accent1-color);
   background-color: var(--text-background-color);
   padding: 20px 0;
   display: block;
@@ -422,6 +641,7 @@ footer {
   justify-content: center;
   text-align: center;
   max-width: 100%;
+  margin-top: 50px;
 }
 
 .griditem1 {

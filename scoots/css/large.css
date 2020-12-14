@@ -618,13 +618,13 @@
 
     form fieldset {
         margin: 2rem 0;
-        border: 1px solid #003577;
+        border: 1px solid #0291C9;
         border-radius: 10px;
         padding: .5rem 2%;
     }
 
     form legend {
-        color: #003577;
+        color: #0291C9;
         margin: 0 1rem;
         padding: 0 .5rem;
         font-size: 1.25rem;
@@ -633,14 +633,7 @@
     form label.top {
         display: block;
         padding-top: 1rem;
-        color: #003577;
-        font-size: 1rem;
-    }
-
-    form label.sbs {
-        display: block;
-        padding-top: 1rem;
-        color: #003577;
+        color: #0291C9;
         font-size: 1rem;
     }
 
@@ -674,31 +667,6 @@
 
     form label.sbs select {
         padding: .5rem .5rem;
-    }
-
-    select[stormlist] {
-        line-height: 40px;
-    }
-
-    .stormrating {
-        display: flex;
-        align-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        color: #003577;
-        font-size: 1rem;
-    }
-
-    #ratingvalue {
-        margin: 0 15px;
-    }
-
-    form label.danger {
-        display: block;
-        padding-top: 1rem;
-        color: #003577;
-        font-size: 1rem;
-        padding-bottom: .25rem;
     }
 
     form label.pickone {

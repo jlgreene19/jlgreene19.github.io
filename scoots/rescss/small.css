@@ -298,11 +298,6 @@
     display: none;
   }
   
-  main > h1 {
-    margin: 5px 0 5px 10px;
-    color: #00B7AB;
-  }
-  
   .weathersummary {
     top: 25px;
     left: 25px;
@@ -465,7 +460,8 @@
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
-    background-color: #FEF64D
+    background-color: #FEF64D;
+    margin-bottom: 80px;
 }
 
 main h2 {
