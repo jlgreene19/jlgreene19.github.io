@@ -93,8 +93,8 @@
     }
 
     .hero-ph img {
-        border-radius: 0;
         height: 100%;
+        width: 100%;
     }
 
     /*********** TOURS.HTML CSS START ***********/
@@ -309,7 +309,7 @@
     .cards section ul {
         text-align: left;
         font-family: Raleway, sans-serif;
-        font-size: bold;
+        font-weight: bold;
         color: #0291C9;
         font-size: .9rem;
         padding-top: 0;
@@ -804,8 +804,8 @@ main ul {
         font-size: 1rem;
     }
 
-    .resources :nth-child(12) a {
-        margin-bottom: 60px;
+    .resources :nth-child(10) a {
+        margin-bottom: 75px;
     }
 
     /*----------- RESOURCES.HTML CSS END -------------*/

@@ -64,16 +64,16 @@
         margin: auto;
         width: 95%;
         height: auto;
-        margin-bottom: 45px;
-    }
-
-    .hero-ph img {
+        margin-bottom: 25px;
+      }
+      
+      .hero-ph img {
         margin: auto;
         background-repeat: no-repeat;
         height: auto;
         width: 100%;
         border-radius: 0;
-    }
+      }
 
     /*********** TOURS.HTML CSS START ***********/
 
