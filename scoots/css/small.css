@@ -39,12 +39,41 @@ html {
   box-sizing: border-box;
 }
 
+.headings {
+  margin-right: 6px;
+}
+
 header {
   width: 100%;
   overflow: hidden;
   display: flex;
   color: var(--paragraph-color-on-color);
   background-color: var(--text-background-color);
+}
+
+.quote {
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: #9ECEE5;
+  background-color: var(--text-background-color);
+  margin-left: 30px;
+  font-size: .75rem;
+  letter-spacing: 1.5pt;
+  letter-spacing: 1.5pt;
+  margin-left: 17px;
+}
+
+.primaryNav {
+  color: #9ECEE5;
+}
+
+nav {
+  background-color: #0291C9;
+}
+
+a:link,
+a:visited {
+  color: #9ECEE5;
 }
 
 body {
@@ -66,15 +95,106 @@ body {
   border-radius: 0;
 }
 
-body > #pancakes {
-  height: 60px;
-  text-align: center;
-  background-color: #9ECEE5;
-  color: #0291C9;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 60px;
-}
+/*********** TOURS.HTML CSS START ***********/
+
+    .tours {
+        font-size: 1.25rem;
+        color: #00B7AB;
+        margin-bottom: -10px;
+    }
+    
+    .tourlist {
+        font-size: 1em;
+    }
+    
+    .tourlist li {
+        margin-bottom: 3px;
+    }
+    
+    .tourlist a {
+        color: #00B7AB;
+        font-weight: bold;
+        padding-left: 2.5px;
+    }
+    
+    .features p {
+        color: #0291C9;
+    }
+    
+    .buttonHolder2 {
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    form input.submitBtn3 {
+        border: none;
+        background-color: #FEF64D;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #00B7AB;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 5rem 2%;
+        width: 96%;
+        max-width: 25rem;
+        height: 2.25em;
+        border: 2px dashed #00B7AB;
+    }
+
+    .features {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features h1 {
+        margin: 30px auto;
+        color: var(--headline-color-on-color);
+        text-align: center;
+        font-size: 2.5rem;
+        color: #00B7AB;
+        border: 4px; border-style: ridge; border-color: #00B7AB;
+        width: fit-content;
+        padding: 10px;
+        margin-bottom: 75px;
+        border-radius: 10px;
+        background-color: #FEF64D;
+    }
+
+    .features p {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        display: block;
+    }
+
+    .features img {
+        margin-left: auto;
+        width: 75%;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .one {
+        text-align: center;
+    }
+
+    .two {
+        text-align: center;
+        margin-bottom: 55px;
+    }
+
+    .three {
+        text-align: center;
+    }
+
+    .four {
+        text-align: center;
+    }
+
+    /*********** TOURS.HTML CSS END ***********/
 
 h1,
 h2,
@@ -414,7 +534,7 @@ h4 {
 }
 
 footer {
-  color: var(--paragraph-color-on-color);
+  color: var(--accent1-color);
   background-color: var(--text-background-color);
   padding: 20px 0;
   display: block;
@@ -422,6 +542,7 @@ footer {
   justify-content: center;
   text-align: center;
   max-width: 100%;
+  margin-top: 50px;
 }
 
 .griditem1 {
