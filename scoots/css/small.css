@@ -151,7 +151,7 @@ body {
         margin: 30px auto;
         color: var(--headline-color-on-color);
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #00B7AB;
         border: 4px; border-style: ridge; border-color: #00B7AB;
         width: fit-content;
@@ -159,6 +159,10 @@ body {
         margin-bottom: 75px;
         border-radius: 10px;
         background-color: #FEF64D;
+    }
+
+    .features2 h2 {
+      font-size: 2rem;
     }
 
     .features p {
