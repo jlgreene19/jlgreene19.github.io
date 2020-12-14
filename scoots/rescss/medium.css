@@ -435,6 +435,22 @@
 
     /*----------- RESERVATIONS.HTML FORM END -------------*/
 
+    /*----------- CONFIRMATION.HTML CSS START -------------*/
+
+    .thanks {
+        text-align: center;
+        color: #0291C9;
+        font-weight: bold;
+    }
+
+    .followup {
+        text-align: center;
+        color: #0291C9;
+        font-weight: bold;
+    }
+
+    /*----------- CONFIRMATION.HTML CSS END -------------*/
+
     .griditem1 {
         text-align: center;
         grid-column-start: 1;

@@ -176,7 +176,7 @@
 
     /*********** TOURS.HTML CSS END ***********/
 
-    /*********** RESERVATIONS.HTML CSS START ***********/
+    /*********** RESERVATIONS.HTML & CONTACT.HTML CSS START ***********/
 
     form {
         margin-left: 15%;
@@ -192,7 +192,7 @@
     }
 
     form legend {
-        color: #003577;
+        color: #0291C9;
         margin: 0 1rem;
         padding: 0 .5rem;
         font-size: 1.25rem;
@@ -201,7 +201,7 @@
     form label.top {
         display: block;
         padding-top: 1rem;
-        color: #003577;
+        color: #0291C9;
         font-size: 1rem;
     }
 
@@ -233,7 +233,7 @@
         width: 100%;
     }
 
-    /*********** RESERVATIONS.HTML CSS START ***********/
+    /*********** RESERVATIONS.HTML & CONTACT.HTML CSS END ***********/
 
     .weathersummary {
         top: 25px;
