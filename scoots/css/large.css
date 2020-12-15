@@ -578,10 +578,8 @@
         margin-bottom: 15px;
     }
 
-    .homewrapper :nth-child(1) {
-        display: grid;
-        text-align: center;
-        margin-bottom: -15px;
+    .homewrapper .box:nth-child(1) h4 {
+        margin-bottom: -35px;
     }
 
     .homewrapper :nth-child(2) {
@@ -596,25 +594,16 @@
 
     .homewrapper :nth-child(4) {
         text-align: center;
+        margin-top: -55px;
     }
 
     .homewrapper :nth-child(6) {
         text-align: center;
-    }
-
-    .homewrapper :nth-child(8) a,
-    img {
-        border-radius: 10px;
-    }
-
-    .homewrapper .box:nth-child(8) {
-        border-radius: 10px;
         margin-top: -20px;
     }
 
-    .homewrapper .box:nth-child(8) img {
-        margin: 0 5px;
-        background-color: green;
+    .homewrapper :nth-child(8) a, img {
+        border-radius: 10px;
     }
 
     footer {
@@ -625,7 +614,7 @@
         justify-content: center;
         width: 100%;
         margin: auto;
-        margin-top: -25px;
+        margin-top: -30px;
     }
 
     * {

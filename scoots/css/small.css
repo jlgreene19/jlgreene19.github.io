@@ -401,6 +401,10 @@ hr {
   border: 1px solid transparent;
 }
 
+.homewrapper :nth-child(8) a, img {
+  border-radius: 10px;
+}
+
 footer {
   color: var(--accent1-color);
   background-color: var(--text-background-color);
