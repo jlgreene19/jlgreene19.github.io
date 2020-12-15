@@ -74,16 +74,6 @@
         border-radius: 25px;
     }
 
-    body>#pancakes {
-        height: 60px;
-        text-align: center;
-        background-color: #F1D302;
-        color: #005377;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 60px;
-    }
-
     body {
         background-color: #E5E5E5;
     }

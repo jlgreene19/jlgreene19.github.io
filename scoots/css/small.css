@@ -95,6 +95,333 @@ body {
   border-radius: 0;
 }
 
+.cozumel1 {
+  margin-top: 15px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  top: 35px;
+  left: 35px;
+  bottom: 72px;
+  background: radial-gradient(#9ECEE5, #9ECEE5);
+  border: 1px solid #00B7AB;
+  border-radius: 25px;
+  padding: .5rem;
+  box-shadow: 0 0 30px #9ECEE5;
+  opacity: 0.85;
+  margin-bottom: 15px;
+}
+
+.cozumel1 img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.cozumel2 {
+  margin-top: 15px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  top: 35px;
+  right: 35px;
+  bottom: 72px;
+  background: radial-gradient(#9ECEE5, #9ECEE5);
+  border: 1px solid #00B7AB;
+  border-radius: 25px;
+  padding: .5rem;
+  box-shadow: 0 0 30px #9ECEE5;
+  opacity: 0.85;
+}
+
+.cozumel2 img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.weathersummary {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #00B7AB;
+  border-radius: 25px;
+  padding: .5rem;
+  width: 75%;
+  box-shadow: 0 0 30px #9ECEE5;
+  color: black;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  opacity: 0.75;
+  margin-top: 15px;
+}
+
+.weathersummary h2 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0 0 0;
+}
+
+hr {
+  border: 2px solid #0291C9;
+  opacity: 1;
+}
+
+.threedaytext h3 {
+  text-align: center;
+  margin-top: 30px;
+  color: #0291C9;
+}
+
+#dayofweek1 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #0291C9;
+  text-align: center;
+}
+
+#dayofweek1 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #0291C9;
+  color: white;
+}
+
+#forecast1 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek2 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #005377;
+  text-align: center;
+}
+
+#dayofweek2 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
+}
+
+#forecast2 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek3 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #005377;
+  text-align: center;
+}
+
+#dayofweek3 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
+}
+
+#forecast3 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* Grid */
+.threedaygrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.threedaygrid {
+  border-right: 1px solid #005377;
+}
+
+.grid-col {
+  border-bottom: 1px solid #005377;
+  border-left: 1px solid black;
+  text-align: center;
+}
+
+.grid-col {
+  background-color: ghostwhite;
+}
+
+.grid-col img {
+  margin-top: 5px;
+}
+
+#dayofweek1 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #005377;
+  text-align: center;
+}
+
+#dayofweek1 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
+}
+
+#forecast1 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek2 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #005377;
+  text-align: center;
+}
+
+#dayofweek2 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
+}
+
+#forecast2 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dayofweek3 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #005377;
+  text-align: center;
+}
+
+#dayofweek3 {
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #005377;
+  color: white;
+}
+
+#forecast3 {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.cards {
+  display: grid;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  grid-gap: .25em;
+  grid-template-columns: 1fr;
+  padding: 10px 5px;
+  list-style: none;
+  border-radius: 25px;
+}
+
+.cards section {
+  text-align: center;
+  display: grid;
+  background-color: #9ECEE5;
+  padding: 1em;
+  height: 500px;
+  margin: .25em;
+  box-shadow: 0 0 25px #FEF64D;
+  border-radius: 25px;
+  border: 1px solid #00B7AB;
+}
+
+.cards section h2 {
+  text-align: center;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 3px 3px 1.5px #E5E5E5;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #0291C9;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  border: 1px solid transparent;
+
+footer {
+    color: var(--accent1-color);
+    background-color: var(--text-background-color);
+    padding: 20px 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 50px;
+  }  
+
+.cards section ul {
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  color: #0291C9;
+  font-size: .9rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.buttonHolder {
+  text-align: center;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #FEF64D;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00B7AB;
+  border: 1px dashed #0291C9;
+  border-radius: 25px;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  width: 25rem;
+  height: 3.5rem;
+}
+
 /*********** TOURS.HTML CSS START ***********/
 
     .tours {
@@ -584,28 +911,44 @@ h4 {
   box-sizing: border-box;
 }
 
+.buttonHolder {
+  text-align: center;
+  margin-left: center;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #FEF64D;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00B7AB;
+  border: 1px dashed #0291C9;
+  border-radius: 25px;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  width: 25rem;
+  height: 3.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .wrapper > div {
   border-radius: 5px;
-  background-color: #E5E5E5;
+  background-color: #BBDEF0;
   padding: 1em;
   margin: 5px;
 }
 
 .wrapper {
   display: block;
-
 }
 
-footer {
-  color: var(--accent1-color);
-  background-color: var(--text-background-color);
-  padding: 20px 0;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  max-width: 100%;
-  margin-top: 50px;
+.wrapper > div {
+  max-width: 780px;
 }
 
 .griditem1 {
