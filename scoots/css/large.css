@@ -184,9 +184,9 @@
 
     .cozumel1 {
         position: absolute;
-        top: 35px;
+        top: 55px;
         left: 35px;
-        bottom: 72px;
+        bottom: 35px;
         background: radial-gradient(#9ECEE5, #9ECEE5);
         border: 1px solid #00B7AB;
         border-radius: 25px;
@@ -203,8 +203,9 @@
         position: absolute;
         top: 105px;
         margin-left: 50%;
-        left: -105px;
+        left: -138px;
         bottom: 130px;
+        width: 275px;
         background: radial-gradient(#9ECEE5, #9ECEE5);
         border: 1px solid #00B7AB;
         border-radius: 25px;
@@ -230,7 +231,7 @@
 
     .cozumel2 {
         position: absolute;
-        top: 35px;
+        top: 70px;
         right: 35px;
         bottom: 72px;
         background: radial-gradient(#9ECEE5, #9ECEE5);
@@ -277,29 +278,52 @@
         font-weight: bold;
         font-size: 2em;
         text-shadow: 3px 3px 1.5px #E5E5E5;
-        margin-top: -40px;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-bottom: 30px;
         color: #0291C9;
     }
 
-    .cards img {
+    .cards section:nth-child(2) h2 {
+        text-align: center;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        font-size: 2em;
+        text-shadow: 3px 3px 1.5px #E5E5E5;
+        margin-top: 45px;
+        margin-bottom: 30px;
+        color: #0291C9;
+    }
+
+    .cards section:nth-child(3) h2 {
+        text-align: center;
+        font-family: Roboto Slab, serif;
+        font-weight: bold;
+        font-size: 2em;
+        text-shadow: 3px 3px 1.5px #E5E5E5;
+        margin-top: 170px;
+        margin-bottom: 30px;
+        color: #0291C9;
+    }
+
+    .cards section:nth-child(1) img {
         width: 100%;
         height: auto;
         display: block;
-        margin-top: 50px;
+        margin-top: 10px;
         border: 1px solid transparent;
     }
 
-    .cards :nth-child(2) img {
+    .cards section:nth-child(2) img {
         width: 100%;
         height: auto;
         display: block;
-        margin-top: 80px;
+        margin-top: 100px;
         border: 1px solid transparent;
     }
 
-    .cards :nth-child(3) img {
-        width: 100%;
+    .cards section:nth-child(3) img {
+        width: 95%;
+        margin-left: 10px;
         height: auto;
         display: block;
         margin-top: 25px;
@@ -312,8 +336,11 @@
         font-weight: bold;
         color: #0291C9;
         font-size: .9rem;
-        padding-top: 0;
-        margin-top: 0;
+        margin-top: -10px;
+    }
+
+    .cards section ul li {
+        padding: -20px;
     }
 
     /*    

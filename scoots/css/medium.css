@@ -180,11 +180,11 @@
 
     .cozumel1 {
         position: absolute;
-        top: -35px;
+        top: 10px;
         width: 375px;
         height: 375px;
         left: 35px;
-        bottom: 200px;
+        bottom: 405px;
         background: radial-gradient(#9ECEE5, #9ECEE5);
         border: 1px solid #00B7AB;
         border-radius: 25px;
@@ -199,12 +199,14 @@
     }
 
     .weathersummary {
-        position: absolute;
+        position: relative;
+        width: 30%;
         top: 105px;
-        margin-left: 50%;
+        float: left;
+        text-align: left;
         left: -107px;
         bottom: 130px;
-        background: radial-gradient(#9ECEE5, #9ECEE5);
+        background: radial-gradient(#E5E5E5, #FEF64D);
         border: 1px solid #00B7AB;
         border-radius: 25px;
         padding: .5rem;
@@ -218,7 +220,13 @@
     .weathersummary h2 {
         text-align: center;
         font-weight: bold;
-        color: black;
+        color: #0291C9;
+        margin: 10px 0 0 0;
+    }
+
+    .weathersummary p {
+        font-weight: bold;
+        color: #0291C9;
         margin: 10px 0 0 0;
     }
 
@@ -229,11 +237,11 @@
 
     .cozumel2 {
         position: absolute;
-        top: -35px;
+        top: 60px;
         width: 375px;
         height: 375px;
         right: 35px;
-        bottom: 72px;
+        bottom: 375px;
         background: radial-gradient(#9ECEE5, #9ECEE5);
         border: 1px solid #00B7AB;
         border-radius: 25px;
@@ -370,44 +378,45 @@
         color: #005377;
     }
 
+    .cards {
+        display: grid;
+        max-width: 1200px;
+        margin-top: 165px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 5px;
+        list-style: none;
+        border-radius: 25px;
+    }
+
     .cards section {
         overflow: hidden;
         display: block;
-        width: 90%;
+        height: 490px;
+        width: 95%;
     }
 
     .cards h2 {
         text-shadow: none;
     }
 
-    .cards img {
-        width: 50%;
-        border: 1px solid #005377;
-        display: block;
-    }
-
-    .cards section:nth-child(odd) div {
-        float: left;
-    }
-
-    .cards section:nth-child(odd) img {
-        float: right;
-    }
-
-    .cards section:nth-child(even) div {
-        float: right;
-    }
-
-    .cards section:nth-child(even) img {
-        float: left;
-    }
-
     .cards section div {
-        margin-top: 55px;
+        margin-top: 5px;
     }
 
-    .cards section:nth-child(even) div {
-        margin-top: 55px;
+    .cards:nth-child(1) img {
+        margin-top: 110px;
+    }
+
+    .cards :nth-child(2) img {
+        margin-top: 140px;
+    }
+
+    .cards :nth-child(3) img {
+        margin-bottom: 130px;
     }
 
     nav a {
@@ -478,15 +487,87 @@
         height: 3.5rem;
     }
 
+    .homewrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .box {
+        padding: 15px;
+        background-color: transparent;
+        color: #0291C9;
+        border-radius: 25px;
+        font-size: 125%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0291C9;
+    }
+
+    .homewrapper .box h4 {
+        text-align: center;
+        color: #00B7AB;
+        font-size: 1.40rem;
+        margin-top: -8px;
+        margin-bottom: 5px;
+    }
+
+    .homewrapper :nth-child(1) h4 {
+        text-align: center;
+        color: #00B7AB;
+        font-size: 1.40rem;
+        margin-bottom: -50px;
+    }
+
+    .homewrapper :nth-child(4) {
+        text-align: center;
+        font-size: 1.40rem;
+        margin-top: -65px;
+    }
+
+    .homewrapper :nth-child(6) {
+        text-align: center;
+        font-size: 1.40rem;
+        margin-top: -65px;
+    }
+
+    .homewrapper :nth-child(1) {
+        display: grid;
+        text-align: center;
+    }
+
+    .homewrapper :nth-child(2) {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homewrapper :nth-child(3) {
+        display: grid;
+        text-align: center;
+    }
+
+    .homewrapper :nth-child(4) {
+        text-align: center;
+    }
+
+    .homewrapper :nth-child(6) {
+        text-align: center;
+    }
+
+    .homewrapper .box:nth-child(8) img {
+        margin: 0 5px;
+        margin-top: -120px;
+    }
+
     footer {
         color: var(--accent1-color);
         background-color: var(--text-background-color);
         padding: 20px 0;
         display: block;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
         max-width: 100%;
-        margin-top: 50px;
+        margin-top: -60px;
     }
 
     .griditem1 {
