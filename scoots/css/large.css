@@ -581,6 +581,7 @@
     .homewrapper :nth-child(1) {
         display: grid;
         text-align: center;
+        margin-bottom: -15px;
     }
 
     .homewrapper :nth-child(2) {
